@@ -1,0 +1,162 @@
+{
+  "date": "2025-04-30T09:30:24.085Z",
+  "trades": [
+    {
+      "token": "8828",
+      "name": "GAEL-EQ",
+      "buyPrice": 122.4,
+      "quantity": 408,
+      "sellPrice": 121.02,
+      "pnl": -563.0400000000039,
+      "timestamp": 1745984725686,
+      "reason": "Fixed Stop Loss Hit (₹500)",
+      "fixedStopLossPrice": 121.17450980392158,
+      "closeTime": 1745993355288
+    },
+    {
+      "token": "1041",
+      "name": "FINPIPE-EQ",
+      "buyPrice": 176.49,
+      "quantity": 283,
+      "sellPrice": 176.82,
+      "pnl": 93.3899999999955,
+      "timestamp": 1745984725717,
+      "reason": "Trailing Stop Loss Hit (₹100 Profit Level)",
+      "fixedStopLossPrice": 174.72321554770318,
+      "closeTime": 1746001428157
+    },
+    {
+      "token": "14334",
+      "name": "HSCL-EQ",
+      "buyPrice": 456.55,
+      "quantity": 109,
+      "sellPrice": 451.95,
+      "pnl": -501.4000000000025,
+      "timestamp": 1745984730792,
+      "reason": "Fixed Stop Loss Hit (₹500)",
+      "fixedStopLossPrice": 451.9628440366973,
+      "closeTime": 1745984858207
+    },
+    {
+      "token": "14255",
+      "name": "REDINGTON-EQ",
+      "buyPrice": 247.78,
+      "quantity": 201,
+      "sellPrice": 248.21,
+      "pnl": 86.43000000000137,
+      "timestamp": 1745984745973,
+      "reason": "Trailing Stop Loss Hit (₹100 Profit Level)",
+      "fixedStopLossPrice": 245.29243781094527,
+      "closeTime": 1745997478372
+    },
+    {
+      "token": "13491",
+      "name": "JKLAKSHMI-EQ",
+      "buyPrice": 795.45,
+      "quantity": 62,
+      "sellPrice": 786.55,
+      "pnl": -551.8000000000056,
+      "timestamp": 1745984761755,
+      "reason": "Fixed Stop Loss Hit (₹500)",
+      "fixedStopLossPrice": 787.3854838709677,
+      "closeTime": 1745984874127
+    },
+    {
+      "token": "13620",
+      "name": "ANANTRAJ-EQ",
+      "buyPrice": 461,
+      "quantity": 108,
+      "sellPrice": 455.75,
+      "pnl": -567,
+      "timestamp": 1745984763972,
+      "reason": "Fixed Stop Loss Hit (₹500)",
+      "fixedStopLossPrice": 456.3703703703704,
+      "closeTime": 1745984829001
+    },
+    {
+      "token": "25328",
+      "name": "APLLTD-EQ",
+      "buyPrice": 877.05,
+      "quantity": 57,
+      "sellPrice": 878.7,
+      "pnl": 94.05000000000518,
+      "timestamp": 1745984877791,
+      "reason": "Trailing Stop Loss Hit (₹100 Profit Level)",
+      "fixedStopLossPrice": 868.2780701754385,
+      "closeTime": 1746003600551
+    },
+    {
+      "token": "1838",
+      "name": "KARURVYSYA-EQ",
+      "buyPrice": 217,
+      "quantity": 230,
+      "sellPrice": 217.27,
+      "pnl": 62.10000000000235,
+      "timestamp": 1745984990066,
+      "reason": "Trailing Stop Loss Hit (₹100 Profit Level)",
+      "fixedStopLossPrice": 214.82608695652175,
+      "closeTime": 1746002343600
+    },
+    {
+      "token": "15228",
+      "name": "UJJIVANSFB-EQ",
+      "buyPrice": 43.71,
+      "quantity": 1143,
+      "sellPrice": 43.27,
+      "pnl": -502.9199999999974,
+      "timestamp": 1745984999790,
+      "reason": "Fixed Stop Loss Hit (₹500)",
+      "fixedStopLossPrice": 43.27255468066492,
+      "closeTime": 1745989542189
+    },
+    {
+      "token": "14180",
+      "name": "NSLNISP-EQ",
+      "buyPrice": 35.47,
+      "quantity": 1409,
+      "sellPrice": 35.53,
+      "pnl": 84.5400000000032,
+      "timestamp": 1745985013091,
+      "reason": "Trailing Stop Loss Hit (₹100 Profit Level)",
+      "fixedStopLossPrice": 35.11513839602555,
+      "closeTime": 1746003481681
+    },
+    {
+      "token": "18566",
+      "name": "RRKABEL-EQ",
+      "buyPrice": 971.35,
+      "quantity": 51,
+      "sellPrice": 1052,
+      "pnl": 4113.149999999999,
+      "timestamp": 1745985043004,
+      "reason": "Market Close",
+      "fixedStopLossPrice": 961.5460784313726,
+      "closeTime": 1746005423255
+    },
+    {
+      "token": "17939",
+      "name": "HINDCOPPER-EQ",
+      "buyPrice": 217.48,
+      "quantity": 229,
+      "sellPrice": 215.27,
+      "pnl": -506.0899999999953,
+      "timestamp": 1745985181997,
+      "reason": "Fixed Stop Loss Hit (₹500)",
+      "fixedStopLossPrice": 215.29659388646286,
+      "closeTime": 1745985491879
+    },
+    {
+      "token": "2792",
+      "name": "EASEMYTRIP-EQ",
+      "buyPrice": 11.96,
+      "quantity": 4180,
+      "sellPrice": 11.92,
+      "pnl": -167.20000000000385,
+      "timestamp": 1745985185996,
+      "reason": "Market Close",
+      "fixedStopLossPrice": 11.840382775119618,
+      "closeTime": 1746005423255
+    }
+  ],
+  "totalPnL": 1174.2099999999975
+}

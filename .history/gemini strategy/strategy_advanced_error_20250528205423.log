@@ -1,0 +1,972 @@
+[2025-05-28 10:10:54] [ERROR] Failed to load Nifty S/R levels: "ENOENT: no such file or directory, open 'D:\\master controllers\\gemini strategy\\nifty_sr_levels.csv'"
+[2025-05-28 10:10:54] [ERROR] Failed to load Bank Nifty S/R levels: "ENOENT: no such file or directory, open 'D:\\master controllers\\gemini strategy\\banknifty_sr_levels.csv'"
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for LT29MAY253640CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for LT29MAY253660CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for LT29MAY253620PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for LT29MAY253640PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: {}
+[2025-05-28 10:10:54] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to load Nifty S/R levels: "ENOENT: no such file or directory, open 'D:\\master controllers\\gemini strategy\\nifty_sr_levels.csv'"
+[2025-05-28 14:15:46] [ERROR] Failed to load Bank Nifty S/R levels: "ENOENT: no such file or directory, open 'D:\\master controllers\\gemini strategy\\banknifty_sr_levels.csv'"
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for LT29MAY253640CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for LT29MAY253660CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for LT29MAY253620PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for LT29MAY253640PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: {}
+[2025-05-28 14:15:46] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to load Nifty S/R levels: "ENOENT: no such file or directory, open 'D:\\master controllers\\gemini strategy\\nifty_sr_levels.csv'"
+[2025-05-28 20:21:11] [ERROR] Failed to load Bank Nifty S/R levels: "ENOENT: no such file or directory, open 'D:\\master controllers\\gemini strategy\\banknifty_sr_levels.csv'"
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for LT29MAY253640CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for LT29MAY253660CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for LT29MAY253620PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for LT29MAY253640PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: {}
+[2025-05-28 20:21:11] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for LT29MAY253640CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for LT29MAY253660CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for LT29MAY253620PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for LT29MAY253640PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: {}
+[2025-05-28 20:27:37] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253640CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253640CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253660CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253660CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253620PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253620PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253640PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for LT29MAY253640PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: {}
+[2025-05-28 20:31:20] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:841:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2525050CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2524950PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for NIFTY29MAY2525000PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555700CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555500PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BANKNIFTY29MAY2555600PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82200CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82300CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82100PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SENSEX25MAY82200PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251440CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251420PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for RELIANCE29MAY251430PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253540CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253560CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253520PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for TCS29MAY253540PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251580CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251600CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251560PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for INFY29MAY251580PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251960CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251920PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HDFCBANK29MAY251940PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251470CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251450PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ICICIBANK29MAY251460PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253640CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253640CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253660CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253660CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253620PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253620PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253640PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for LT29MAY253640PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252420CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252380PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252100CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252060PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for KOTAKBANK29MAY252080PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25790CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25800CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25780PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for SBIN29MAY25790PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251230CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251210PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for AXISBANK29MAY251220PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259400CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259200PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for BAJFINANCE29MAY259300PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25445CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25450CE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25440PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: {}
+[2025-05-28 20:33:39] [ERROR] Failed to fetch historical data for ITC29MAY25445PE: Message: this.smart_api.getHistoricalData is not a function, Stack: TypeError: this.smart_api.getHistoricalData is not a function
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:73:61)
+    at AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:20)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:844:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5), API Response: N/A 
+[2025-05-28 20:54:24] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: {}
+[2025-05-28 20:54:24] [ERROR] Failed to fetch historical data for HINDUNILVR29MAY252400CE: Message: Cannot read properties of undefined (reading 'map'), Stack: TypeError: Cannot read properties of undefined (reading 'map')
+    at AdvancedOptionsTrader.fetchAllHistoricalData (D:\master controllers\gemini strategy\advanced_options_trader.js:94:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AdvancedOptionsTrader.initialize (D:\master controllers\gemini strategy\advanced_options_trader.js:55:9)
+    at async main (D:\master controllers\gemini strategy\advanced_options_trader.js:859:9), API Response: N/A 

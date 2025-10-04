@@ -1,0 +1,30 @@
+// File: /pre_market_analyzer/config_analyzer.json
+{
+  "underlyings_to_scan": [
+    {"symbol": "NIFTY", "instrument_type": "index", "options_exchange_segment": "NFO"},
+    {"symbol": "BANKNIFTY", "instrument_type": "index", "options_exchange_segment": "NFO"},
+    {"symbol": "RELIANCE", "instrument_type": "stock", "options_exchange_segment": "NFO", "stock_exchange_segment": "NSE"},
+    {"symbol": "INFY", "instrument_type": "stock", "options_exchange_segment": "NFO", "stock_exchange_segment": "NSE"},
+    {"symbol": "TCS", "instrument_type": "stock", "options_exchange_segment": "NFO", "stock_exchange_segment": "NSE"}
+  ],
+  "underlying_historical_config": {
+    "duration_days": 14,
+    "interval": "60minute" // Your API might expect "1H", "60", etc.
+  },
+  "option_historical_config": {
+    "duration_days": 5, // Shorter duration for options typically
+    "interval": "15minute" // For options analysis
+  },
+  "options_selection_criteria": {
+    "expiry_type": "WEEKLY", // Or "NEXT_WEEKLY", "MONTHLY"
+    "strikes_from_atm": 3,   // Consider 3 strikes ITM, ATM, 3 OTM for both CE/PE
+    "min_oi": 100000,        // Minimum Open Interest for an option to be considered
+    "min_volume": 500        // Minimum volume
+  },
+  "sr_calculation_parameters": {
+    "sensitivity": 0.005,   // Percentage for grouping levels (e.g., 0.5% of price)
+    "strength_threshold": 2 // Min touches to be considered a strong level
+  },
+  "output_file_path": "../advanced_trader_refactored/logs/updated_options.json",
+  "data_store_path": "./data_store"
+}

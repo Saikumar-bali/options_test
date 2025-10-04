@@ -1,0 +1,172 @@
+// File: /advanced_trader_refactored/src/execution/TradeExecutor.js
+const moment = require("moment-timezone");
+
+class TradeExecutor {
+    constructor(strategy) {
+        this.strategy = strategy;
+        this.logger = strategy.logger;
+        this.config = strategy.config;
+        this.positionManager = strategy.positionManager;
+        this.riskManager = strategy.riskManager;
+        this.telegramService = strategy.telegramService;
+    }
+
+    checkEntryConditions(stock, optionLtp) {
+        // New logic: Confirm the pre-identified setup in real-time
+        const underlyingLtp = this.strategy.underlyingPrices.get(stock.underlying);
+        if (!underlyingLtp) {
+            // this.logger.debug(`Waiting for underlying LTP for ${stock.underlying}`);
+            return;
+        }
+        
+        const uSr = stock.underlying_sr_level;
+        const oSr = stock.option_sr_level;
+        const direction = stock.recommended_direction;
+
+        let entryConfirmed = false;
+
+        // Confirm bounce for a CALL BUY setup
+        if (direction === 'BUY_CE' && uSr.type === 'support' && oSr.type === 'support') {
+            const underlyingBouncing = underlyingLtp > uSr.level && underlyingLtp < uSr.level * 1.002; // Price is just above support
+            const optionBouncing = optionLtp > oSr.level && optionLtp < oSr.level * 1.01; // Option price is just above its support
+            if (underlyingBouncing && optionBouncing) {
+                entryConfirmed = true;
+            }
+        }
+        // Confirm rejection for a PUT BUY setup
+        else if (direction === 'BUY_PE' && uSr.type === 'resistance' && oSr.type === 'support') {
+            const underlyingRejecting = underlyingLtp < uSr.level && underlyingLtp > uSr.level * 0.998; // Price is just below resistance
+            const optionBouncing = optionLtp > oSr.level && optionLtp < oSr.level * 1.01; // Option price is just above its support
+            if (underlyingRejecting && optionBouncing) {
+                entryConfirmed = true;
+            }
+        }
+
+        if (entryConfirmed) {
+            this.executeBuy(stock, optionLtp, `Confirmed ${stock.trade_setup_reason}`);
+        }
+    }
+
+    checkBbRsiEntry(stock, ltp) {
+        if (!stock.bb || stock.rsi === null) return null;
+        const { rsi } = this.config.tradingParameters;
+
+        if (stock.option_type === "CE" && ltp > stock.bb.upper && stock.rsi > rsi.callBuyThreshold) {
+            return "BB_RSI_Breakout_CE";
+        }
+        if (stock.option_type === "PE" && ltp < stock.bb.lower && stock.rsi < rsi.putBuyThreshold) {
+            return "BB_RSI_Breakout_PE";
+        }
+        return null;
+    }
+
+    checkSrBreakoutEntry(stock, ltp) {
+        const { srParameters } = this.config;
+        if (!srParameters.enabled || !stock.srLevels || stock.srLevels.length === 0) {
+            return null;
+        }
+        const recentCandles = stock.candles.slice(-srParameters.breakoutConfirmationCandles);
+        if (recentCandles.length < srParameters.breakoutConfirmationCandles) return null;
+
+        for (const level of stock.srLevels) {
+            // Resistance Breakout (Buy CE)
+            if (stock.option_type === 'CE' && level.type === 'resistance' && ltp > level.level) {
+                if (recentCandles.every(c => c.close > level.level)) {
+                    return `Resistance Breakout @${level.level.toFixed(2)}`;
+                }
+            }
+            // Support Breakdown (Buy PE)
+            if (stock.option_type === 'PE' && level.type === 'support' && ltp < level.level) {
+                if (recentCandles.every(c => c.close < level.level)) {
+                    return `Support Breakdown @${level.level.toFixed(2)}`;
+                }
+            }
+        }
+        return null;
+    }
+
+    // ... (checkExitConditions remains the same) ...
+    checkExitConditions(stock, ltp, position) {
+        let exitReason = null;
+        if (stock.option_type === "CE" && ltp <= position.slPrice) exitReason = "StopLoss Hit (CE)";
+        if (stock.option_type === "PE" && ltp >= position.slPrice) exitReason = "StopLoss Hit (PE)";
+        if (!exitReason && stock.option_type === "CE" && ltp >= position.tpPrice) exitReason = "TakeProfit Hit (CE)";
+        if (!exitReason && stock.option_type === "PE" && ltp <= position.tpPrice) exitReason = "TakeProfit Hit (PE)";
+        
+        if (exitReason) this.executeSell(stock, ltp, position, exitReason);
+    }
+
+
+    executeBuy(stock, price, reason) {
+
+         // SL/TP logic can be simplified or based on other S/R levels
+        const { atr } = this.config.tradingParameters;
+        
+        // Use the next S/R level as TP if available, otherwise use ATR
+        let tpPrice, slPrice;
+        
+        if (stock.option_type === 'CE') {
+            // Find next resistance for TP
+            const nextResistance = stock.option_sr_levels?.find(l => l.type === 'resistance' && l.level > price);
+            tpPrice = nextResistance ? nextResistance.level : (price * (1 + atr.tpMultiplier * 0.05)); // Fallback
+            slPrice = price * (1 - atr.slMultiplier * 0.05); // Fallback SL
+        } else { // PE
+            const nextResistance = stock.option_sr_levels?.find(l => l.type === 'resistance' && l.level > price);
+            tpPrice = nextResistance ? nextResistance.level : (price * (1 + atr.tpMultiplier * 0.05));
+            slPrice = price * (1 - atr.slMultiplier * 0.05);
+        }
+
+        const { tradingParameters, riskManagement, srParameters } = this.config;
+        const quantity = parseInt(stock.lotsize || riskManagement.defaultQuantity.toString());
+        if (quantity <= 0) return;
+        
+        const atrVal = stock.atr || price * 0.02; // Fallback ATR
+
+        // Default ATR-based SL/TP
+        if (stock.option_type === "CE") {
+            slPrice = price - (atrVal * tradingParameters.atr.slMultiplier);
+            tpPrice = price + (atrVal * tradingParameters.atr.tpMultiplier);
+        } else { // PE
+            slPrice = price + (atrVal * tradingParameters.atr.slMultiplier);
+            tpPrice = price - (atrVal * tradingParameters.atr.tpMultiplier);
+        }
+
+        // S/R based TP override
+        if (srParameters.enabled && stock.srLevels && stock.srLevels.length > 0) {
+            const oppositeType = stock.option_type === 'CE' ? 'resistance' : 'support';
+            const potentialTargets = stock.srLevels
+                .filter(l => l.type === oppositeType && (stock.option_type === 'CE' ? l.level > price : l.level < price))
+                .sort((a, b) => stock.option_type === 'CE' ? a.level - b.level : b.level - a.level);
+
+            if (potentialTargets.length > 0) {
+                tpPrice = potentialTargets[0].level;
+                this.logger.debug(`TP for ${stock.symbol} set by S/R level: ${tpPrice}`);
+            }
+        }
+        const newPosition = {
+            token: stock.token, symbol: stock.symbol, option_type: stock.option_type, quantity,
+            buyPrice: price, buyTime: moment.tz("Asia/Kolkata"),
+            slPrice: Math.max(0.05, slPrice), tpPrice: Math.max(0.10, tpPrice),
+            exch_seg: stock.exch_seg, expiry: stock.expiry ? moment(stock.expiry) : null,
+        };
+
+        this.positionManager.addPosition(newPosition);
+        const alertMsg = `🟢 BUY ${stock.symbol} Q:${quantity} @${price.toFixed(2)} | SL:${newPosition.slPrice.toFixed(2)} TP:${newPosition.tpPrice.toFixed(2)} | Reason: ${reason}`;
+        this.telegramService.sendAlert(alertMsg);
+        this.logger.logTrade({ ...newPosition, action: 'BUY', reason, dailyPnl: this.riskManager.getPnL() });
+    }
+
+    executeSell(stock, price, position, reason) {
+        this.positionManager.removePosition(stock.token);
+        const pnl = (price - position.buyPrice) * position.quantity * (position.option_type === "PE" ? -1 : 1);
+        this.riskManager.updatePnl(pnl);
+
+        const alertMsg = `🔴 SELL ${stock.symbol} Q:${position.quantity} @${price.toFixed(2)} | P&L: ₹${pnl.toFixed(2)} | Day P&L: ₹${this.riskManager.getPnL().toFixed(2)} | Reason: ${reason}`;
+        this.telegramService.sendAlert(alertMsg);
+        this.logger.logTrade({ ...position, action: 'SELL', price, pnl, reason, dailyPnl: this.riskManager.getPnL() });
+
+        if (pnl < 0) this.riskManager.startCooldown(stock.token);
+    }
+}
+
+module.exports = TradeExecutor;

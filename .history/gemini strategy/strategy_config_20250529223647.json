@@ -1,0 +1,93 @@
+{
+  "strategyName": "sai Advanced BB_RSI_ATR_SR_OI_ML",
+  "telegramBotToken": "7693312832:AAEAV68PflHoNDTj-pKwW1T_OimSyZMycpA",
+  "chatId": "6611269701",
+  "logFiles": {
+    "updatedStocks": "updated_options.json",
+    "positions": "positions_advanced.json",
+    "tradeLogCsv": "trade_log_advanced.csv",
+    "dailyReportJson": "daily_report_advanced.json",
+    "errorLog": "strategy_advanced_error.log",
+    "logFile": "strategy_advanced.log"
+  },
+  "marketHours": {
+    "open": "09:15",
+    "close": "15:30",
+    "eodTaskHour": 15,
+    "eodTaskMinute": 45
+  },
+  "runEodTaskOnStartupIfPastTime": true,
+  "fetchDelayMs": 350,
+  "majorIndexSR": {
+    "NIFTY": { "token": "26000", "name": "NIFTY", "exch_seg": "NSE", "sr_levels_file": "nifty_sr_levels.csv" },
+    "BANKNIFTY": { "token": "26009", "name": "BANKNIFTY", "exch_seg": "NSE", "sr_levels_file": "banknifty_sr_levels.csv" }
+  },
+  "majorStockSR": {
+    "RELIANCE": {
+      "token": "2885",
+      "name": "RELIANCE",
+      "exch_seg": "NSE",
+      "sr_levels_file": "reliance_sr_levels.csv"
+    },
+    "TCS": {
+      "token": "11536",
+      "name": "TCS",
+      "exch_seg": "NSE",
+      "sr_levels_file": "tcs_sr_levels.csv"
+    },
+    "INFY": {
+      "token": "1594",
+      "name": "INFY",
+      "exch_seg": "NSE",
+      "sr_levels_file": "infy_sr_levels.csv"
+    },
+    "HDFCBANK": {
+      "token": "1333",
+      "name": "HDFCBANK",
+      "exch_seg": "NSE",
+      "sr_levels_file": "hdfcbank_sr_levels.csv"
+    },
+    "ICICIBANK": {
+      "token": "4963",
+      "name": "ICICIBANK",
+      "exch_seg": "NSE",
+      "sr_levels_file": "icicibank_sr_levels.csv"
+    },
+    "LT": {
+      "token": "11483",
+      "name": "LT",
+      "exch_seg": "NSE",
+      "sr_levels_file": "lt_sr_levels.csv"
+    }
+  },
+  "tradingParameters": {
+    "candleIntervalMinutes": 15,
+    "maxCandlesToKeep": 200,
+    "historicalDataDays": 10,
+    "bollingerBands": { "period": 20, "stdDev": 2 },
+    "rsi": { "period": 14, "callBuyThreshold": 60, "putBuyThreshold": 40 },
+    "atr": { "period": 14, "slMultiplier": 1.5, "tpMultiplier": 3.0 },
+    "srLevels": { "lookback": 20, "sensitivity": 0.01 },
+     "trailingStopLoss": {
+      "enabled": true,
+      "activationAtrMultiple": 1.0,
+      "trailAtrMultiple": 1.5
+    },
+    "maxTradesPerDay": 10,
+    "maxLossPerDayPercent": 2.0,
+    "overallProfitTargetPercent": 5.0,
+    "perTradeRiskPercent": 0.5,
+    "tradeCooldownSeconds": 60
+  },
+  "oiManager": {
+    "enabled": true,
+    "intervalSeconds": 300,
+    "pcrThresholds": {"buy": 0.7, "sell": 1.2},
+    "coiChangeThresholds": {"strong": 0.1, "moderate": 0.05}
+  },
+  "ml_prediction": {
+    "enabled": true,
+    "apiUrl": "http://localhost:5000/predict",
+    "confidenceThreshold": 0.7
+  }
+}

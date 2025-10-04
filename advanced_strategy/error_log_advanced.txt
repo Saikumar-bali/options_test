@@ -1,0 +1,6 @@
+[2025-05-30 08:21:09] [ERROR] ❌ Error reading/parsing updated_options.json: - Unexpected end of JSON input SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at AdvancedOptionsTrader.loadStocks (D:\master controllers\advanced_strategy\advanced_options_trader.js:51:37)
+    at new AdvancedOptionsTrader (D:\master controllers\advanced_strategy\advanced_options_trader.js:20:28)
+    at main (D:\master controllers\advanced_strategy\advanced_options_trader.js:694:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) "Unexpected end of JSON input"

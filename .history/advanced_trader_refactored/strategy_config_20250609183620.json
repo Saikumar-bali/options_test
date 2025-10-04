@@ -1,0 +1,39 @@
+{
+    "strategyName": "BB_RSI_ATR_Options_Trader",
+    "telegramBotToken": "7693312832:AAEAV68PflHoNDTj-pKwW1T_OimSyZMycpA",
+    "chatId": "6611269701",
+  "logFiles": {
+        "positions": "positions_advanced.json",
+        "tradeLogCsv": "trade_log_advanced.csv",
+        "errorLog": "error_log_advanced.txt",
+        "updatedStocks": "updated_options.json"
+    },
+    "marketHours": {
+        "open": "09:15",
+        "close": "15:30"
+    },
+    "debugMode": true,
+    "preMarketAnalysis": {
+        "enabled": true,
+        "save_candles_to_csv": true,
+        "data_store_path": "./pre_market_data",
+        "underlyings_to_scan": [
+            { "symbol": "NIFTY", "token": "99926000", "instrument_type": "index", "underlying_segment": "NSE", "strikeStep": 50 },
+            { "symbol": "BANKNIFTY", "token": "99926009", "instrument_type": "index", "underlying_segment": "NSE", "strikeStep": 100 },
+            { "symbol": "RELIANCE-EQ", "token": "2885", "instrument_type": "stock", "underlying_segment": "NSE", "strikeStep": 20 },
+            { "symbol": "TCS-EQ", "token": "11536", "instrument_type": "stock", "underlying_segment": "NSE", "strikeStep": 20 },
+            { "symbol": "INFY-EQ", "token": "1594", "instrument_type": "stock", "underlying_segment": "NSE", "strikeStep": 20 }
+        ],
+        "underlying_historical_config": {
+            "duration_days": 60,
+            "interval": "ONE_HOUR"
+        },
+        "sr_calculation_parameters": {
+            "reactionLookback": 5,
+            "levelsToReturn": 6 
+        },
+        "trade_identification_parameters": {
+            "proximity_to_sr_percent": 1.0
+        }
+    }
+}

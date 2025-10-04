@@ -1,0 +1,26 @@
+{
+  "name": "advanced_strategy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "advanced_options_trader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node advanced_options_trader.js",
+    "debug": "node --inspect-brk advanced_options_trader.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "deploy": "echo \"Deploy script not defined\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "moment-timezone": "^0.6.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

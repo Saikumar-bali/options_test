@@ -1,0 +1,374 @@
+ Initializing MasterController (v2 - Direct WS)...
+[PositionManager] Successfully loaded 0 open position(s) from file.
+🔐 TOTP generated: 015917
+✅ Session generated successfully & AccessToken set.
+🔄 Connecting to AngelOne WebSocket (Direct)...
+✅ MasterController Initialization complete.
+✅ WebSocket Connected!
+ℹ️ No tokens across strategies to subscribe.
+[NIFTY] Initializing with strategy: SUPPORT_RETEST
+[NIFTY] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[NIFTY] Initializing with strategy: RESISTANCE_RETEST
+[NIFTY] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[SENSEX] Initializing with strategy: SUPPORT_RETEST
+[SENSEX] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[SENSEX] Initializing with strategy: RESISTANCE_RETEST
+[SENSEX] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[BANKNIFTY] Initializing with strategy: SUPPORT_RETEST
+[BANKNIFTY] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[BANKNIFTY] Initializing with strategy: RESISTANCE_RETEST
+[BANKNIFTY] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[MIDCPNIFTY] Initializing with strategy: SUPPORT_RETEST
+[MIDCPNIFTY] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[MIDCPNIFTY] Initializing with strategy: RESISTANCE_RETEST
+[MIDCPNIFTY] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[TCS] Initializing with strategy: SUPPORT_RETEST
+[TCS] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[TCS] Initializing with strategy: RESISTANCE_RETEST
+[TCS] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[INFY] Initializing with strategy: SUPPORT_RETEST
+[INFY] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[HDFCBANK] Initializing with strategy: SUPPORT_RETEST
+[HDFCBANK] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[HDFCBANK] Initializing with strategy: RESISTANCE_RETEST
+[HDFCBANK] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[ICICIBANK] Initializing with strategy: SUPPORT_RETEST
+[ICICIBANK] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[ICICIBANK] Initializing with strategy: RESISTANCE_RETEST
+[ICICIBANK] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[AXISBANK] Initializing with strategy: SUPPORT_RETEST
+[AXISBANK] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[AXISBANK] Initializing with strategy: RESISTANCE_RETEST
+[AXISBANK] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[RELIANCE] Initializing with strategy: SUPPORT_RETEST
+[RELIANCE] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[RELIANCE] Initializing with strategy: RESISTANCE_RETEST
+[RELIANCE] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[SBIN] Initializing with strategy: SUPPORT_RETEST
+[SBIN] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[SBIN] Initializing with strategy: RESISTANCE_RETEST
+[SBIN] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[BHARTIARTL] Initializing with strategy: SUPPORT_RETEST
+[BHARTIARTL] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[BHARTIARTL] Initializing with strategy: RESISTANCE_RETEST
+[BHARTIARTL] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[HINDUNILVR] Initializing with strategy: SUPPORT_RETEST
+[HINDUNILVR] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[HINDUNILVR] Initializing with strategy: RESISTANCE_RETEST
+[HINDUNILVR] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[BAJFINANCE] Initializing with strategy: SUPPORT_RETEST
+[BAJFINANCE] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[BAJFINANCE] Initializing with strategy: RESISTANCE_RETEST
+[BAJFINANCE] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[ITC] Initializing with strategy: SUPPORT_RETEST
+[ITC] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[ITC] Initializing with strategy: RESISTANCE_RETEST
+[ITC] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[LT] Initializing with strategy: SUPPORT_RETEST
+[LT] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[LT] Initializing with strategy: RESISTANCE_RETEST
+[LT] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[M&M] Initializing with strategy: SUPPORT_RETEST
+[M&M] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[M&M] Initializing with strategy: RESISTANCE_RETEST
+[M&M] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[SUNPHARMA] Initializing with strategy: SUPPORT_RETEST
+[SUNPHARMA] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[SUNPHARMA] Initializing with strategy: RESISTANCE_RETEST
+[SUNPHARMA] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+[ONGC] Initializing with strategy: SUPPORT_RETEST
+[ONGC] SupportRetestStrategy Initialized. Current candle starts at: 09:15
+[ONGC] Initializing with strategy: RESISTANCE_RETEST
+[ONGC] ResistanceRetestStrategy Initialized. Current candle starts at: 09:15
+
+Registering all initialized strategies with MasterController...
+✅ Registered strategy: PositionManager
+ℹ️ No tokens across strategies to subscribe.
+  -> Registered: PositionManager
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 1 tokens:
+  -> Registered: SupportRetestStrategy for NIFTY
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 1 tokens:
+  -> Registered: ResistanceRetestStrategy for NIFTY
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 2 tokens:
+  -> Registered: SupportRetestStrategy for SENSEX
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 2 tokens:
+  -> Registered: ResistanceRetestStrategy for SENSEX
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 3 tokens:
+  -> Registered: SupportRetestStrategy for BANKNIFTY
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 3 tokens:
+  -> Registered: ResistanceRetestStrategy for BANKNIFTY
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 4 tokens:
+  -> Registered: SupportRetestStrategy for MIDCPNIFTY
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 4 tokens:
+  -> Registered: ResistanceRetestStrategy for MIDCPNIFTY
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 5 tokens:
+  -> Registered: SupportRetestStrategy for TCS
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 5 tokens:
+  -> Registered: ResistanceRetestStrategy for TCS
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 6 tokens:
+  -> Registered: SupportRetestStrategy for INFY
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 7 tokens:
+  -> Registered: SupportRetestStrategy for HDFCBANK
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 7 tokens:
+  -> Registered: ResistanceRetestStrategy for HDFCBANK
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 8 tokens:
+  -> Registered: SupportRetestStrategy for ICICIBANK
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 8 tokens:
+  -> Registered: ResistanceRetestStrategy for ICICIBANK
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 9 tokens:
+  -> Registered: SupportRetestStrategy for AXISBANK
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 9 tokens:
+  -> Registered: ResistanceRetestStrategy for AXISBANK
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 10 tokens:
+  -> Registered: SupportRetestStrategy for RELIANCE
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 10 tokens:
+  -> Registered: ResistanceRetestStrategy for RELIANCE
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 11 tokens:
+  -> Registered: SupportRetestStrategy for SBIN
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 11 tokens:
+  -> Registered: ResistanceRetestStrategy for SBIN
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 12 tokens:
+  -> Registered: SupportRetestStrategy for BHARTIARTL
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 12 tokens:
+  -> Registered: ResistanceRetestStrategy for BHARTIARTL
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 13 tokens:
+  -> Registered: SupportRetestStrategy for HINDUNILVR
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 13 tokens:
+  -> Registered: ResistanceRetestStrategy for HINDUNILVR
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 14 tokens:
+  -> Registered: SupportRetestStrategy for BAJFINANCE
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 14 tokens:
+  -> Registered: ResistanceRetestStrategy for BAJFINANCE
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 15 tokens:
+  -> Registered: SupportRetestStrategy for ITC
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 15 tokens:
+  -> Registered: ResistanceRetestStrategy for ITC
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 16 tokens:
+  -> Registered: SupportRetestStrategy for LT
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 16 tokens:
+  -> Registered: ResistanceRetestStrategy for LT
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 17 tokens:
+  -> Registered: SupportRetestStrategy for M&M
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 17 tokens:
+  -> Registered: ResistanceRetestStrategy for M&M
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 18 tokens:
+  -> Registered: SupportRetestStrategy for SUNPHARMA
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 18 tokens:
+  -> Registered: ResistanceRetestStrategy for SUNPHARMA
+✅ Registered strategy: SupportRetestStrategy
+📩 Sending subscription request for 19 tokens:
+  -> Registered: SupportRetestStrategy for ONGC
+✅ Registered strategy: ResistanceRetestStrategy
+📩 Sending subscription request for 19 tokens:
+  -> Registered: ResistanceRetestStrategy for ONGC
+
+✅ All strategies registered. Sending one master subscription request...
+📩 Sending subscription request for 19 tokens:
+
+ℹ️ Waiting 10 seconds for initial price data to arrive...
+
+✅ S/R level calculation will now only run once at startup.
+
+⏰ Scheduling end-of-day tasks...
+  -> Positions will be carried forward. Auto square-off is DISABLED.
+  -> Daily report scheduled for 15:31 IST (Mon-Fri).
+  -> Daily instrument refresh scheduled for 15:40-15:59 IST (Mon-Fri)
+  -> Graceful shutdown scheduled for 16:00 IST (Mon-Fri).
+
+🔄 Triggering initial S/R level calculation for all strategies...
+[DataFetcher] Initial fetch for option RELIANCE with interval 'ONE_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Initial fetch for option RELIANCE with interval 'ONE_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for RELIANCE.
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for RELIANCE.
+[DataFetcher] Attempt 1 failed for HINDUNILVR. Retrying in 1s...
+[DataFetcher] Attempt 1 failed for RELIANCE. Retrying in 1s...
+[DataFetcher] Attempt 1 failed for RELIANCE. Retrying in 1s...
+[DataFetcher] Attempt 2 failed for HINDUNILVR. Retrying in 2s...
+[DataFetcher] Attempt 2 failed for RELIANCE. Retrying in 2s...
+[DataFetcher] Attempt 2 failed for RELIANCE. Retrying in 2s...
+[DataFetcher] Attempt 3 failed for HINDUNILVR. Retrying in 4s...
+[DataFetcher] Attempt 3 failed for RELIANCE. Retrying in 4s...
+[DataFetcher] Attempt 3 failed for RELIANCE. Retrying in 4s...
+[DataFetcher] FINAL: All attempts failed to fetch historical data for NSE:HINDUNILVR.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for RELIANCE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for RELIANCE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for RELIANCE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for RELIANCE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for RELIANCE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for RELIANCE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for RELIANCE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for RELIANCE.
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for RELIANCE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for RELIANCE.
+✅ All S/R levels calculated.
+✅ Support and Resistance levels saved to D:\master controllers\trading-bot\trading-bot\reports\support_resistance_levels.txt
+📢 Sent initial S/R levels to Telegram.
+(node:13692) [node-telegram-bot-api] DeprecationWarning: In the future, content-type of files you send will default to "application/octet-stream". See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files for more information on how sending files has been improved and on how to disable this deprecation message altogether.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+📢 Sent S/R levels file to Telegram from D:\master controllers\trading-bot\trading-bot\reports\support_resistance_levels.txt.
+[SENSEX25O0180500PE] Successfully calculated ATR on 255 candles. Value: 51.89
+[NIFTY07OCT2524650PE] Successfully calculated ATR on 276 candles. Value: 14.20
+📩 Sending subscription request for 20 tokens:
+📩 Sending subscription request for 21 tokens:
+[DataFetcher] Initial fetch for option BAJFINANCE25OCT1000PE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for BAJFINANCE25OCT1000PE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for BAJFINANCE25OCT1000PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for BAJFINANCE25OCT1000PE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for BAJFINANCE25OCT1000PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for BAJFINANCE25OCT1000PE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for BAJFINANCE25OCT1000PE.
+[BAJFINANCE25OCT1000PE] Not enough data for ATR calc. Needed 8, got 0.
+[BAJFINANCE] Trade setup for BAJFINANCE25OCT1000PE rejected. ❌ *Trade Rejected (PE) for BAJFINANCE*
+
+*Symbol:* `BAJFINANCE25OCT1000PE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+[DataFetcher] Initial fetch for option TCS25OCT2900PE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for TCS25OCT2900PE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for TCS25OCT2900PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for TCS25OCT2900PE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for TCS25OCT2900PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for TCS25OCT2900PE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for TCS25OCT2900PE.
+[TCS25OCT2900PE] Not enough data for ATR calc. Needed 8, got 0.
+[TCS] Trade setup for TCS25OCT2900PE rejected. ❌ *Trade Rejected (PE) for TCS*
+
+*Symbol:* `TCS25OCT2900PE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+[DataFetcher] Initial fetch for option INFY25OCT1440CE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for INFY25OCT1440CE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for INFY25OCT1440CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for INFY25OCT1440CE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for INFY25OCT1440CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for INFY25OCT1440CE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for INFY25OCT1440CE.
+[INFY25OCT1440CE] Not enough data for ATR calc. Needed 8, got 0.
+[INFY] Trade setup for INFY25OCT1440CE rejected. ❌ *Trade Rejected (CE) for INFY*
+
+*Symbol:* `INFY25OCT1440CE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+error: [polling_error] {}
+[DataFetcher] Initial fetch for option M&M25OCT3450PE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Initial fetch for option TCS25OCT2900PE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for M&M25OCT3450PE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for M&M25OCT3450PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for TCS25OCT2900PE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for TCS25OCT2900PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for M&M25OCT3450PE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for M&M25OCT3450PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for TCS25OCT2900PE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for TCS25OCT2900PE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for M&M25OCT3450PE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for M&M25OCT3450PE.
+[M&M25OCT3450PE] Not enough data for ATR calc. Needed 8, got 0.
+[M&M] Trade setup for M&M25OCT3450PE rejected. ❌ *Trade Rejected (PE) for M&M*
+
+*Symbol:* `M&M25OCT3450PE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for TCS25OCT2900PE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for TCS25OCT2900PE.
+[TCS25OCT2900PE] Not enough data for ATR calc. Needed 8, got 0.
+[TCS] Trade setup for TCS25OCT2900PE rejected. ❌ *Trade Rejected (PE) for TCS*
+
+*Symbol:* `TCS25OCT2900PE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+[DataFetcher] Initial fetch for option INFY25OCT1440CE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for INFY25OCT1440CE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for INFY25OCT1440CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for INFY25OCT1440CE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for INFY25OCT1440CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for INFY25OCT1440CE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for INFY25OCT1440CE.
+[INFY25OCT1440CE] Not enough data for ATR calc. Needed 8, got 0.
+[INFY] Trade setup for INFY25OCT1440CE rejected. ❌ *Trade Rejected (CE) for INFY*
+
+*Symbol:* `INFY25OCT1440CE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+[DataFetcher] Initial fetch for option ITC25OCT400CE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for ITC25OCT400CE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for ITC25OCT400CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for ITC25OCT400CE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for ITC25OCT400CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for ITC25OCT400CE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for ITC25OCT400CE.
+[ITC25OCT400CE] Not enough data for ATR calc. Needed 8, got 0.
+[ITC] Trade setup for ITC25OCT400CE rejected. ❌ *Trade Rejected (CE) for ITC*
+
+*Symbol:* `ITC25OCT400CE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.
+[DataFetcher] Initial fetch for option AXISBANK25OCT1130CE with interval 'FIFTEEN_MINUTE' returned no data. Initiating fallback sequence.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '5-Minute' interval with a 45-day lookback for AXISBANK25OCT1130CE.
+[DataFetcher] Fallback with '5-Minute' interval also failed to retrieve data for AXISBANK25OCT1130CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using '60-Minute' interval with a 120-day lookback for AXISBANK25OCT1130CE.
+[DataFetcher] Fallback with '60-Minute' interval also failed to retrieve data for AXISBANK25OCT1130CE.
+[DataFetcher] Waiting 2 seconds before next fallback attempt...
+[DataFetcher] Fallback attempt: Using 'Daily' interval with a 365-day lookback for AXISBANK25OCT1130CE.
+[DataFetcher] Fallback with 'Daily' interval also failed to retrieve data for AXISBANK25OCT1130CE.
+[AXISBANK25OCT1130CE] Not enough data for ATR calc. Needed 8, got 0.
+[AXISBANK] Trade setup for AXISBANK25OCT1130CE rejected. ❌ *Trade Rejected (CE) for AXISBANK*
+
+*Symbol:* `AXISBANK25OCT1130CE`
+*Reason:* Failed to calculate a valid ATR after multiple retries.

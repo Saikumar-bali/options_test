@@ -1,0 +1,39 @@
+{
+    "strategyName": "BB_RSI_ATR_Options_Trader",
+    "telegramBotToken": "7693312832:AAEAV68PflHoNDTj-pKwW1T_OimSyZMycpA",
+    "chatId": "6611269701",
+ "logFiles": {
+        "positions": "positions_advanced.json",
+        "dailyReportJson": "daily_report_advanced.json",
+        "tradeLogCsv": "trade_log_advanced.csv",
+        "errorLog": "error_log_advanced.txt",
+        "updatedStocks": "updated_options.json"
+    },
+    "marketHours": { "open": "09:15", "close": "15:30", "eodTaskHour": 15, "eodTaskMinute": 35 },
+    "tradingParameters": { "atr": { "period": 14, "slMultiplier": 1.5, "tpMultiplier": 3.0 }},
+    "riskManagement": { "maxDailyLoss": -10000, "maxDailyProfit": 20000, "haltTradingOnLimit": true, "defaultQuantity": 1 },
+    "fetchDelayMs": 500,
+    "debugMode": true,
+    "preMarketAnalysis": {
+        "enabled": true,
+        "underlyings_to_scan": [
+            { "symbol": "NIFTY",         "token": "99926000", "instrument_type": "index", "options_segment": "NFO", "underlying_segment": "NSE" },
+            { "symbol": "BANKNIFTY",     "token": "99926009", "instrument_type": "index", "options_segment": "NFO", "underlying_segment": "NSE" },
+            { "symbol": "RELIANCE-EQ",   "instrument_type": "stock", "options_segment": "NFO", "underlying_segment": "NSE" },
+            { "symbol": "TCS-EQ",        "instrument_type": "stock", "options_segment": "NFO", "underlying_segment": "NSE" },
+            { "symbol": "INFY-EQ",       "instrument_type": "stock", "options_segment": "NFO", "underlying_segment": "NSE" }
+        ],
+        "underlying_historical_config": { 
+            "duration_days": 50,
+            "interval": "60minute"
+        },
+        "option_historical_config": { "duration_days": 7, "interval": "15minute" },
+        "options_selection_criteria": {
+            "expiry_type": "WEEKLY", "strikes_from_atm": 3, "min_oi": 10000, "min_volume": 100
+        },
+        "sr_calculation_parameters": {
+            "sensitivity_percent": 0.005, "strength_threshold": 2, "proximity_to_sr_percent": 0.003
+        },
+        "data_store_path": "./src/pre_market_analysis/data_store"
+    }
+}

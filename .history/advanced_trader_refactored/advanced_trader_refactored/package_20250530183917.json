@@ -1,0 +1,14 @@
+{
+  "name": "advanced_trader_refactored",
+  "version": "1.0.0",
+  "description": "A modular options trading bot.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "moment-timezone": "^0.5.43",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}

@@ -1,0 +1,24 @@
+DAILY TRADING REPORT
+
+Stock                        Bought      Sold   Qty         P&L    Status
+---------------------------------------------------------------
+NIFTY30APR2524400PE           99.20     87.65    75    ₹-866.25    CLOSED
+NIFTY30APR2524250CE          113.30    101.20    75    ₹-907.50    CLOSED
+NIFTY30APR2524400PE           88.30     78.50    75    ₹-735.00    CLOSED
+NIFTY30APR2524300CE           62.80     56.40    75    ₹-480.00    CLOSED
+NIFTY30APR2524250CE           97.35     87.55    75    ₹-735.00    CLOSED
+BANKNIFTY29MAY2555300CE     1171.10   1053.45    30   ₹-3529.50    CLOSED
+BANKNIFTY29MAY2555400CE     1117.90   1005.30    30   ₹-3378.00    CLOSED
+NIFTY30APR2524300CE           51.05     45.70    75    ₹-401.25    CLOSED
+BANKNIFTY29MAY2555400CE     1096.25    985.10    30   ₹-3334.50    CLOSED
+BANKNIFTY29MAY2555300CE     1150.80   1035.00    30   ₹-3474.00    CLOSED
+NIFTY08MAY2524350PE          182.55    164.05    75   ₹-1387.50    CLOSED
+SENSEX2550680400PE           509.45    457.15    20   ₹-1046.00    CLOSED
+NIFTY08MAY2524400PE          200.10    179.40    75   ₹-1552.50    CLOSED
+SENSEX2550680400PE           435.85    390.65    20    ₹-904.00    CLOSED
+NIFTY08MAY2524350PE          166.70       N/A    75         N/A      OPEN
+NIFTY08MAY2524400PE          186.65       N/A    75         N/A      OPEN
+SENSEX2550680400PE           416.90       N/A    20         N/A      OPEN
+
+---------------------------------------------------------------
+TOTAL P&L:                                 ₹-11698.50

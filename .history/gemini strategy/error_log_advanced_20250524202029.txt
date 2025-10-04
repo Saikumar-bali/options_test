@@ -1,0 +1,277 @@
+[2025-05-24 19:47:06] [ERROR] Telegram send error: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 19:47:30] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 19:49:23] [ERROR] Telegram send error: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 19:49:25] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 19:53:19] [ERROR] Telegram send error: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 19:57:10] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 19:57:13] [ERROR] Telegram send error: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 19:57:25] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 19:58:01] [ERROR] Telegram send error: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 19:58:19] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:00:24] [ERROR] Telegram send error: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:00:28] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:01:24] [ERROR] Telegram send error: - EFATAL: Telegram Bot Token not provided! Error: EFATAL: Telegram Bot Token not provided!
+    at TelegramBot._request (D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:280:29)
+    at TelegramBot.sendMessage (D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:970:17)
+    at AdvancedOptionsTrader.sendTelegramAlert (D:\master controllers\gemini strategy\advanced_options_trader.js:547:28)
+    at new AdvancedOptionsTrader (D:\master controllers\gemini strategy\advanced_options_trader.js:43:14)
+    at main (D:\master controllers\gemini strategy\advanced_options_trader.js:696:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) "EFATAL: Telegram Bot Token not provided!"
+[2025-05-24 20:01:29] [ERROR] ❌ Failed to generate/send daily report: - EFATAL: Telegram Bot Token not provided! Error: EFATAL: Telegram Bot Token not provided!
+    at TelegramBot._request (D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:280:29)
+    at TelegramBot.sendDocument (D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:1136:17)
+    at AdvancedOptionsTrader.generateDailyReport (D:\master controllers\gemini strategy\advanced_options_trader.js:662:28)
+    at shutdown (D:\master controllers\gemini strategy\advanced_options_trader.js:713:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) "EFATAL: Telegram Bot Token not provided!"
+[2025-05-24 20:02:52] [ERROR] Telegram send error: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 20:02:55] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 20:07:20] [ERROR] Telegram send error: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 20:07:23] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 20:14:09] [ERROR] Telegram send error: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:14:13] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:16:01] [ERROR] Telegram send error: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:20:11] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 400 Bad Request: chat not found Error: ETELEGRAM: 400 Bad Request: chat not found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 400 Bad Request: chat not found"
+[2025-05-24 20:20:14] [ERROR] Telegram send error: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"
+[2025-05-24 20:20:30] [ERROR] ❌ Failed to generate/send daily report: - ETELEGRAM: 404 Not Found Error: ETELEGRAM: 404 Not Found
+    at D:\master controllers\gemini strategy\node_modules\node-telegram-bot-api\src\telegram.js:316:15
+    at tryCatcher (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:102:5)
+    at Async.drainQueues (D:\master controllers\gemini strategy\node_modules\bluebird\js\release\async.js:15:14)
+    at process.processImmediate (node:internal/timers:491:21) "ETELEGRAM: 404 Not Found"

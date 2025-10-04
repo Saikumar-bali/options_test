@@ -1,0 +1,19 @@
+✅.fix N/A FOR PROFIT AND LOSS .
+✅.REMOVING MUTLIPLE TIMES SUPPORT AND RESISTANCE CREATION.
+✅.ADDING TRAIL SL 15% TO BE 20%.
+✅.FIXING BANKNIFTY .
+✅.ADDING SENSEX.
+✅.on expiry day choose next week contracts.
+✅.making more flexible for carry forward Positions.
+❌.if support or resistance broke it is no longer support(it will be resistance) and resistance(it will be support).
+✅.GETTING EXACT NEAREST OPTIONS FOR NIFTY, SENSEX,STOCKS separatly.
+❌.ADDING MCX COMMODITIES LIKE SILVER,GOLD,NATURAL GAS ..ETC
+✅. fixing live pnl asking 
+✅.save triggered positions at time .  
+✅.unrealized pnl and did not triggered positions print in pdf
+✅.using ATR  for trail sl .
+❌.using rsi for better entry .
+✅.use target 1 as 2*atr and the second target is atr*5 . if target 1 hit then modify the stoploss cost to cost (buy price is the sl)
+✅.for indexes and underlyings ltp must touch the level instead of close to the level.
+❌.
+✅

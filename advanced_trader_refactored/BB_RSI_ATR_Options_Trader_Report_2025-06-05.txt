@@ -1,0 +1,14 @@
+📊 BB_RSI_ATR_Options_Trader - DAILY REPORT 2025-06-05 📊
+
+Trading Status: HALTED (Limit) ⚠️
+
+--- CLOSED TRADES ---
+No trades closed today.
+
+--- OPEN POSITIONS ---
+No open positions at EOD.
+
+--------------------------------------------------------------------------------
+TOTAL REALIZED P&L:      ₹0.00
+TOTAL UNREALIZED P&L:    ₹0.00
+FINAL DAILY P&L (Strategy): ₹0.00

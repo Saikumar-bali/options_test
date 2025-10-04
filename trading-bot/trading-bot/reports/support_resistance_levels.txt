@@ -1,0 +1,149 @@
+Initial Support & Resistance Levels 
+
+NIFTY (LTP: 24894.25)
+  - Supports: 24731.01
+  - Resistances: 25034.86
+
+NIFTY (LTP: 24894.25)
+  - Supports: 24731.01
+  - Resistances: 25034.86
+
+SENSEX (LTP: 81207.17)
+  - Supports: 80635.66
+  - Resistances: 81613.64
+
+SENSEX (LTP: 81207.17)
+  - Supports: 80635.66
+  - Resistances: 81613.64
+
+BANKNIFTY (LTP: 55589.25)
+  - Supports: 55256.63, 54550.70
+  - Resistances: N/A
+
+BANKNIFTY (LTP: 55589.25)
+  - Supports: N/A
+  - Resistances: N/A
+
+MIDCPNIFTY (LTP: 12793.60)
+  - Supports: 12706.84, 12552.37
+  - Resistances: 12940.13
+
+MIDCPNIFTY (LTP: 12793.60)
+  - Supports: 12706.84, 12552.37
+  - Resistances: 12940.13
+
+TCS (LTP: 2901.90)
+  - Supports: 2901.05
+  - Resistances: 2927.05, 3046.25
+
+TCS (LTP: 2901.90)
+  - Supports: 2901.05
+  - Resistances: 2927.05, 3046.25
+
+INFY (LTP: 1446.60)
+  - Supports: 1440.37
+  - Resistances: 1459.15, 1485.00, 1502.70
+
+HDFCBANK (LTP: 965.15)
+  - Supports: 957.15, 946.03
+  - Resistances: 966.95
+
+HDFCBANK (LTP: 965.15)
+  - Supports: N/A
+  - Resistances: N/A
+
+ICICIBANK (LTP: 1365.20)
+  - Supports: 1363.22, 1344.97
+  - Resistances: 1377.26, 1389.75
+
+ICICIBANK (LTP: 1365.20)
+  - Supports: 1363.22, 1344.97
+  - Resistances: 1377.26, 1389.75
+
+AXISBANK (LTP: 1181.00)
+  - Supports: 1166.97, 1154.23, 1130.55
+  - Resistances: 1183.80
+
+AXISBANK (LTP: 1181.00)
+  - Supports: 1166.97, 1154.23, 1130.55
+  - Resistances: 1183.80
+
+RELIANCE (LTP: 1363.30)
+  - Supports: N/A
+  - Resistances: 1366.51, 1380.34
+
+RELIANCE (LTP: 1363.30)
+  - Supports: N/A
+  - Resistances: 1366.51, 1380.34
+
+SBIN (LTP: 867.30)
+  - Supports: 860.52
+  - Resistances: 872.11
+
+SBIN (LTP: 867.30)
+  - Supports: 860.52
+  - Resistances: 872.11
+
+BHARTIARTL (LTP: 1896.70)
+  - Supports: 1884.63, 1855.77
+  - Resistances: 1917.34, 1941.65
+
+BHARTIARTL (LTP: 1896.70)
+  - Supports: 1884.63, 1855.77
+  - Resistances: 1917.34, 1941.65
+
+HINDUNILVR (LTP: 2544.90)
+  - Supports: N/A
+  - Resistances: N/A
+
+HINDUNILVR (LTP: 2544.90)
+  - Supports: 2544.10, 2511.31
+  - Resistances: 2571.75
+
+BAJFINANCE (LTP: 990.00)
+  - Supports: 979.81
+  - Resistances: 996.73, 1015.13, 1028.17
+
+BAJFINANCE (LTP: 990.00)
+  - Supports: 979.81
+  - Resistances: 996.73, 1015.13, 1028.17
+
+ITC (LTP: 404.30)
+  - Supports: 401.69
+  - Resistances: 406.00
+
+ITC (LTP: 404.30)
+  - Supports: 401.69
+  - Resistances: 406.00
+
+LT (LTP: 3733.10)
+  - Supports: 3695.31, 3643.56
+  - Resistances: N/A
+
+LT (LTP: 3733.10)
+  - Supports: 3695.31, 3643.56
+  - Resistances: N/A
+
+M&M (LTP: 3462.00)
+  - Supports: 3450.92, 3402.55
+  - Resistances: 3496.70, 3584.33
+
+M&M (LTP: 3462.00)
+  - Supports: N/A
+  - Resistances: N/A
+
+SUNPHARMA (LTP: 1631.20)
+  - Supports: 1620.30, 1597.94, 1580.10
+  - Resistances: 1641.50
+
+SUNPHARMA (LTP: 1631.20)
+  - Supports: 1620.30, 1597.94, 1580.10
+  - Resistances: 1641.50
+
+ONGC (LTP: 243.66)
+  - Supports: 243.32, 239.50
+  - Resistances: N/A
+
+ONGC (LTP: 243.66)
+  - Supports: 243.32, 239.50
+  - Resistances: N/A

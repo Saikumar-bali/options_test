@@ -1,0 +1,65 @@
+{
+  "strategyName": "Gemini Advanced BB_RSI_ATR_SR_OI_ML",
+  "telegramBotToken": "7693312832:AAEAV68PflHoNDTj-pKwW1T_OimSyZMycpA",
+  "chatId": "6611269701",
+  "logFiles": {
+    "updatedStocks": "updated_options.json",
+    "positions": "positions_advanced.json",
+    "tradeLogCsv": "trade_log_advanced.csv",
+    "dailyReportJson": "daily_report_advanced.json",
+    "errorLog": "strategy_advanced_error.log",
+    "logFile": "strategy_advanced.log"
+  },
+  "marketHours": {
+    "open": "09:15",
+    "close": "15:30",
+    "eodTaskHour": 15,
+    "eodTaskMinute": 45
+  },
+  "tradingParameters": {
+    "trailingStopLoss": {
+      "enabled": true,
+      "activationAtrMultiple": 1.0,
+      "trailAtrMultiple": 1.5
+    },
+    "candleIntervalMinutes": 15,
+    "maxCandlesToKeep": 200,
+    "historicalDataDays": 10,
+    "bollingerBands": {
+      "period": 20,
+      "stdDev": 2
+    },
+    "rsi": {
+      "period": 14,
+      "callBuyThreshold": 60,
+      "putBuyThreshold": 40
+    },
+    "atr": {
+      "period": 14,
+      "slMultiplier": 1.5,
+      "tpMultiplier": 3.0
+    },
+    "srLookbackPeriod": 50,
+    "srBufferFactor": 0.005,
+    "useOIConfirm": false,
+    "useMLConfirm": false
+  },
+  "riskManagement": {
+    "defaultQuantity": 50,
+    "maxDailyLoss": -36000,
+    "maxDailyProfit": 72000,
+    "haltTradingOnLimit": true,
+    "tradeCooldownSeconds": 60
+  },
+  "oi_analysis": {
+    "enabled": true,
+    "updateIntervalMinutes": 5,
+    "bullishSignal": "BUILDUP",
+    "bearishSignal": "UNWINDING"
+  },
+  "ml_prediction": {
+    "enabled": true,
+    "apiUrl": "http://localhost:5000/predict"
+  },
+  "fetchDelayMs": 300
+}
