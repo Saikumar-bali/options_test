@@ -14,25 +14,37 @@ async function calculateDynamicExpiries(instrumentLoader, strategyConfig) {
         if (!config.enabled || !config.options.enabled) continue;
 
         try {
-            // Get all instruments for the underlying first
             const allInstruments = instrumentLoader.getInstrumentsByUnderlying(config.underlying);
             if (!allInstruments || allInstruments.length === 0) {
                 console.warn(`  ⚠️ No instruments found for ${config.underlying}, skipping.`);
                 continue;
             }
 
-            // *** FIX APPLIED HERE ***
-            // Filter the instruments to only include those from the exchange specified in the config
-            const instruments = allInstruments.filter(inst => inst.exch_seg === config.exchange);
+            // --- FIX APPLIED HERE ---
+            // Map the user-friendly exchange from the config (e.g., 'NSE') to the correct options segment ('NFO').
+            const optionSegmentMap = {
+                'NSE': 'NFO',
+                'BSE': 'BFO',
+            };
+            // Use the mapped segment, or the original name if it's not in the map
+            const optionSegment = optionSegmentMap[config.exchange] || config.exchange;
+
+            // Now, filter instruments by the correct options segment (e.g., 'NFO' or 'BFO') AND ensure they are options
+            const instruments = allInstruments.filter(inst =>
+                inst.exch_seg === optionSegment &&
+                (inst.instrument_type === 'OPTIDX' || inst.instrument_type === 'OPTSTK' || inst.instrument_type === 'OPTFUT')
+            );
 
             if (!instruments || instruments.length === 0) {
-                console.warn(`  ⚠️ No instruments found for ${config.underlying} on the specified exchange '${config.exchange}'.`);
+                // This warning will now be more accurate
+                console.warn(`  ⚠️ No option contracts found for ${config.underlying} in the '${optionSegment}' segment.`);
                 continue;
             }
 
             const expiryMap = new Map();
             instruments.forEach(opt => {
                 if (!opt.expiry) return;
+                // The expiry date format from the file is 'DDMMMYYYY' e.g. '28OCT2025'
                 const expiryDate = moment(opt.expiry, 'DDMMMYYYY');
                 if (!expiryDate.isValid()) return;
                 const key = expiryDate.format('YYYYMMDD');
@@ -47,67 +59,61 @@ async function calculateDynamicExpiries(instrumentLoader, strategyConfig) {
                 .sort((a, b) => a.date.valueOf() - b.date.valueOf());
 
             if (sortedExpiries.length === 0) {
+                // If this error still occurs, it's likely due to an old instruments.json file
                 throw new Error('No future expiries available');
             }
 
             const expiryPreference = config.options.expiry_type || 'MONTHLY';
             let selectedExpiry;
 
-            if (expiryPreference === 'WEEKLY') {
-                let foundWeekly = null;
+            // --- FIX APPLIED FOR MCX ---
+            // For commodities, always select the nearest available contract (front-month).
+            if (config.exchange === 'MCX') {
+                selectedExpiry = sortedExpiries[0].date;
+            }
+            // --- END FIX ---
 
+            else if (expiryPreference === 'WEEKLY') {
+                let foundWeekly = null;
                 for (const candidate of sortedExpiries) {
                     const month = candidate.date.month();
                     const year = candidate.date.year();
-
                     const expiriesInCandidateMonth = sortedExpiries.filter(e => e.date.month() === month && e.date.year() === year);
                     const lastDayInCandidateMonth = expiriesInCandidateMonth[expiriesInCandidateMonth.length - 1];
-
                     const isMonthly = candidate.date.isSame(lastDayInCandidateMonth.date);
-
                     if (!isMonthly) {
                         foundWeekly = candidate;
                         break;
                     }
                 }
-                
                 if (foundWeekly) {
                     selectedExpiry = foundWeekly.date;
                 } else {
-                    console.log(`  [Expiry Warning] No weekly contract found for ${config.underlying}. Falling back to nearest available expiry.`);
+                    console.log(`  [Expiry Warning] No weekly contract found for ${config.underlying} on ${config.exchange}. Falling back to nearest available expiry.`);
                     selectedExpiry = sortedExpiries[0].date;
                 }
-
-            } else { // This handles 'MONTHLY' preference
+            } else { // Handles 'MONTHLY'
                 let targetMonth = moment().startOf('month');
                 let monthExpiries = [];
-
                 for (let i = 0; i < 12; i++) {
                     const monthKey = targetMonth.month();
                     const yearKey = targetMonth.year();
-                    
-                    const potentialExpiries = sortedExpiries.filter(exp =>
-                        exp.date.month() === monthKey && exp.date.year() === yearKey
-                    );
-
+                    const potentialExpiries = sortedExpiries.filter(exp => exp.date.month() === monthKey && exp.date.year() === yearKey);
                     if (potentialExpiries.length > 0) {
                         monthExpiries = potentialExpiries;
-                        break; 
+                        break;
                     }
                     targetMonth.add(1, 'month');
                 }
-
                 if (monthExpiries.length > 0) {
-                    // The last expiry in a given month is the monthly expiry
                     selectedExpiry = monthExpiries[monthExpiries.length - 1].date;
                 } else {
-                    // Fallback if no expiries are found for the current or upcoming months
                     selectedExpiry = sortedExpiries[sortedExpiries.length - 1].date;
                 }
             }
 
             if (!selectedExpiry) {
-                 throw new Error('Could not determine a valid expiry date');
+                throw new Error('Could not determine a valid expiry date');
             }
 
             config.options.expiry_date = selectedExpiry.format('YYYY-MM-DD');

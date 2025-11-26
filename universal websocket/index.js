@@ -8,7 +8,7 @@ const path = require('path');
 const moment = require("moment-timezone");
 
 // This line is correct in main.js, but keeping it here as a fallback doesn't hurt.
-if(!process.env.SMART_API_KEY) {
+if (!process.env.SMART_API_KEY) {
     require("dotenv").config({ path: path.join(__dirname, '../.env') });
 }
 
@@ -184,7 +184,7 @@ class MasterController {
     distributeTick(tickData) {
         // console.log("Distributing tick:", tickData); // Optional: log for debug
         this.strategies.forEach(strategy => {
-            if(typeof strategy.processData === 'function') {
+            if (typeof strategy.processData === 'function') {
                 strategy.processData(tickData);
             }
         });
@@ -284,13 +284,13 @@ class MasterController {
         console.log(`📩 Sending subscription request for ${stocksToSubscribe.length} tokens:`);
         this.ws.send(JSON.stringify(subscriptionRequest));
     }
-    
+
     unsubscribeFromTokens(tokensToUnsubscribe) {
         if (!this.ws || this.ws.readyState !== WebSocket.OPEN) {
             console.error("⚠️ Cannot unsubscribe - WebSocket not open");
             return;
         }
-         if (!tokensToUnsubscribe || tokensToUnsubscribe.length === 0) {
+        if (!tokensToUnsubscribe || tokensToUnsubscribe.length === 0) {
             console.log("ℹ️ No tokens to unsubscribe.");
             return;
         }
@@ -343,15 +343,18 @@ class MasterController {
             console.error(`❌ API Queue Error (${methodName}):`, error.message);
             reject(error);
         } finally {
-            this.isApiCallInProgress = false;
-            setTimeout(() => this.processApiCallQueue(), this.apiCallDelay);
+            // Keep isApiCallInProgress true during the delay to prevent race conditions
+            setTimeout(() => {
+                this.isApiCallInProgress = false;
+                this.processApiCallQueue();
+            }, this.apiCallDelay);
         }
     }
     async getHistoricalData(params) {
         // console.log("Fetching historical data with params:", params);
         return this.enqueueApiCall('getCandleData', [params]);
     }
-    
+
     async placeOrder(params) {
         console.log("Placing order with params:", params);
         return this.enqueueApiCall('placeOrder', [params]);

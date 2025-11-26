@@ -1,17 +1,8 @@
 // File: /trading-bot/indicators/Trendline.js
 
-/**
- * Identifies swing lows in a series of candles.
- * A swing low is a candle whose low is the lowest in a given window of candles.
- * @param {Array<Object>} candles - Array of candle objects { open, high, low, close }.
- * @param {number} windowSize - The number of candles to the left and right to check.
- * @returns {Array<Object>} An array of swing low points { index, price }.
- */
-function findSwingLows(candles, windowSize = 5) {
+function findSensitiveSwingLows(candles, windowSize = 2) {
     const swingLows = [];
-    if (candles.length < (windowSize * 2) + 1) {
-        return [];
-    }
+    if (candles.length < (windowSize * 2) + 1) return [];
 
     for (let i = windowSize; i < candles.length - windowSize; i++) {
         const currentLow = candles[i].low;
@@ -23,96 +14,113 @@ function findSwingLows(candles, windowSize = 5) {
             }
         }
         if (isSwingLow) {
-            swingLows.push({ index: i, price: currentLow });
+            swingLows.push({ index: i, price: currentLow, time: candles[i].time });
         }
     }
     return swingLows;
 }
 
 /**
- * Finds the most recent, valid support trendline from a series of candles.
- * A valid trendline is defined by at least 3 touchpoints from swing lows, has a positive slope,
- * and the price does not significantly break below it between its defining points.
- * @param {Array<Object>} candles - Array of candle objects.
- * @param {Object} params - Configuration parameters.
- * @param {number} params.minTouches - Minimum number of touches to be a valid trendline.
- * @param {number} params.tolerancePercent - The percentage tolerance for a point to be considered on the line.
- * @returns {Object|null} The trendline object { slope, intercept, points, touches } or null if none found.
+ * Advanced Trendline Detection using RANSAC with RECENCY BIAS.
+ * Finds the robust line that is most relevant to the CURRENT price action.
  */
-function findSupportTrendline(candles, params = {}) {
-    const { minTouches = 3, tolerancePercent = 0.10 } = params; // Default 0.10% tolerance
-    const swingLows = findSwingLows(candles, 5);
+function findSupportTrendlineRANSAC(candles, tolerancePercent = 0.1, minTouches = 3, maxIterations = 5000) {
+    const sensitiveSwings = findSensitiveSwingLows(candles, 2); 
+    const N = sensitiveSwings.length;
+    if (N < 2) return null;
 
-    if (swingLows.length < 2) { // Need at least 2 points to form a line
-        return null;
-    }
-
+    const currentBarIndex = candles.length - 1;
     let bestTrendline = null;
-    
-    // Iterate through all combinations of two swing lows to form a candidate line
-    for (let i = 0; i < swingLows.length; i++) {
-        for (let j = i + 1; j < swingLows.length; j++) {
-            const p1 = swingLows[i];
-            const p2 = swingLows[j];
+    let bestScore = -Infinity; // We now use a score, not just touch count
 
-            if (p1.index === p2.index) continue;
+    for (let iter = 0; iter < maxIterations; iter++) {
+        // Randomly select two points
+        let idx1 = Math.floor(Math.random() * N);
+        let idx2 = Math.floor(Math.random() * N);
+        while (idx2 === idx1) idx2 = Math.floor(Math.random() * N);
+        
+        const pA = sensitiveSwings[idx1];
+        const pB = sensitiveSwings[idx2];
+        const p1 = pA.index < pB.index ? pA : pB;
+        const p2 = pA.index < pB.index ? pB : pA;
 
-            // Calculate slope (m) and intercept (c) for y = mx + c
-            const slope = (p2.price - p1.price) / (p2.index - p1.index);
-            
-            // We are looking for a RISING support trendline
-            if (slope <= 0) continue;
+        const indexDiff = p2.index - p1.index;
+        
+        // Strict Filter: Line must be rising and points must not be identical
+        if (p2.price <= p1.price || indexDiff <= 0) continue;
 
-            const intercept = p1.price - slope * p1.index;
-            
-            const currentPoints = [];
-            let touches = 0;
+        const slope = (p2.price - p1.price) / indexDiff;
+        const intercept = p1.price - slope * p1.index;
 
-            // Check how many swing lows touch this candidate line
-            for (const p3 of swingLows) {
-                const expectedPrice = slope * p3.index + intercept;
-                const tolerance = expectedPrice * (tolerancePercent / 100);
+        let inliers = [];
+        
+        for (let k = 0; k < N; k++) {
+            const pOther = sensitiveSwings[k];
+            const trendlinePrice = slope * pOther.index + intercept;
+            const priceDiff = Math.abs(pOther.price - trendlinePrice);
+            const maxAllowedDeviation = trendlinePrice * (tolerancePercent / 100);
 
-                if (Math.abs(p3.price - expectedPrice) <= tolerance) {
-                    touches++;
-                    currentPoints.push(p3);
+            if (priceDiff <= maxAllowedDeviation) {
+                inliers.push(pOther);
+            }
+        }
+
+        if (inliers.length >= minTouches) {
+            // Validation: Ensure no significant breaches below the line
+            const sortedInliers = inliers.sort((a, b) => a.index - b.index);
+            const firstPoint = sortedInliers[0];
+            const lastPoint = sortedInliers[sortedInliers.length - 1];
+            let isLineValid = true;
+
+            for (let k = firstPoint.index + 1; k < lastPoint.index; k++) {
+                const trendlinePrice = slope * k + intercept;
+                const breachTolerance = trendlinePrice * (tolerancePercent / 100); 
+                if (candles[k].low < trendlinePrice - breachTolerance) {
+                    isLineValid = false;
+                    break;
                 }
             }
-            
-            if (touches >= minTouches) {
-                // Validation Step: Ensure price doesn't significantly break below the line
-                const sortedPoints = currentPoints.sort((a, b) => a.index - b.index);
-                const firstPoint = sortedPoints[0];
-                const lastPoint = sortedPoints[sortedPoints.length - 1];
-                let isLineValid = true;
 
-                for (let k = firstPoint.index + 1; k < lastPoint.index; k++) {
-                    const trendlinePrice = slope * k + intercept;
-                    // Allow a slightly larger tolerance for minor breaches within the trendline formation
-                    const breachTolerance = trendlinePrice * ((tolerancePercent * 1.5) / 100); 
-                    if (candles[k].low < trendlinePrice - breachTolerance) {
-                        isLineValid = false;
-                        break;
-                    }
-                }
+            if (isLineValid) {
+                // --- SMART SCORING ALGORITHM ---
+                // 1. Weight by number of touches (Stability)
+                // 2. Weight by how close the last point is to "Now" (Recency)
+                // 3. Penalize lines that project too far away from current price
+                
+                const recencyFactor = lastPoint.index / currentBarIndex; // 0.0 to 1.0 (1.0 is very recent)
+                const touchScore = Math.pow(inliers.length, 2); // Squared to heavily favor more touches
+                
+                // Current price projection check
+                const currentProjectedPrice = slope * currentBarIndex + intercept;
+                const currentClose = candles[currentBarIndex].close || candles[currentBarIndex].low;
+                const distPercent = Math.abs((currentClose - currentProjectedPrice) / currentClose);
+                
+                // If the line is currently > 5% away from price, heavily penalize it
+                const relevancePenalty = distPercent > 0.05 ? 0.1 : 1.0;
 
-                if (isLineValid) {
-                    // We prefer the most recent trendline. A trendline is considered more recent 
-                    // if its last defining point is more recent.
-                    if (!bestTrendline || lastPoint.index > bestTrendline.points[bestTrendline.points.length - 1].index) {
-                         bestTrendline = {
-                            slope,
-                            intercept,
-                            points: sortedPoints,
-                            touches
-                        };
-                    }
+                // Final Score Calculation
+                const totalScore = touchScore * recencyFactor * relevancePenalty;
+
+                if (totalScore > bestScore) {
+                    bestScore = totalScore;
+                     bestTrendline = {
+                        slope,
+                        intercept,
+                        points: sortedInliers,
+                        touches: inliers.length,
+                        score: totalScore
+                    };
                 }
             }
         }
     }
     
+    if (bestTrendline) {
+        bestTrendline.point1 = bestTrendline.points[0];
+        bestTrendline.point2 = bestTrendline.points[bestTrendline.points.length - 1];
+    }
+
     return bestTrendline;
 }
 
-module.exports = { findSupportTrendline };
+module.exports = { findSupportTrendline: findSupportTrendlineRANSAC };

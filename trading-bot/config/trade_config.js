@@ -3,6 +3,38 @@
 // --- Define strategy templates with expiry preferences ---
 const STRATEGY_TEMPLATES = [
     {
+        enabled: false,
+        underlying: 'NIFTY',
+        strategy: 'SUPPORT_TRENDLINE',
+        instrumentType: 'Index',
+        token: '99926000',
+        lot_size: 50,
+        options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
+        support_trendline_params: {
+            atr_period: 14,
+            rsi_period: 14,
+            rsi_max_entry: 50,
+
+            // AUTOMATIC RAY CALCULATION CONFIGURATION
+            automatic_detection: {
+                enabled: true,
+                min_swing_lows: 3,
+                min_trendline_length: 40, // bars
+                max_trendline_length: 200, // bars  
+                tolerance_percent: 0.15,
+                require_positive_slope: true
+            }
+        },
+        atrSettings: {
+            enabled: true,
+            period: 8,
+            slMultiplier: 2,
+            trailingMultiplier: 0.5,
+            riskRewardRatio: 5,
+        }
+    },
+    {
         enabled: true,
         underlying: 'NIFTY',
         strategy: 'SUPPORT_RETEST',
@@ -10,7 +42,7 @@ const STRATEGY_TEMPLATES = [
         token: '99926000',
         lot_size: 50,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -34,7 +66,7 @@ const STRATEGY_TEMPLATES = [
         token: '99926000',
         lot_size: 50,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -54,7 +86,7 @@ const STRATEGY_TEMPLATES = [
         token: '99919000',
         lot_size: 20,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -79,7 +111,7 @@ const STRATEGY_TEMPLATES = [
         token: '99919000',
         lot_size: 20,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -103,7 +135,7 @@ const STRATEGY_TEMPLATES = [
         token: '99926009',
         lot_size: 15,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -127,7 +159,7 @@ const STRATEGY_TEMPLATES = [
         token: '99926009',
         lot_size: 15,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -152,7 +184,7 @@ const STRATEGY_TEMPLATES = [
         token: '99926074', // Placeholder token, please verify
         lot_size: 75,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -176,7 +208,7 @@ const STRATEGY_TEMPLATES = [
         token: '99926074', // Placeholder token, please verify
         lot_size: 75,
         options: { expiry_type: 'WEEKLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -201,7 +233,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 175,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -224,7 +256,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 175,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -247,7 +279,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 400,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -270,7 +302,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 550,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -293,7 +325,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 550,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -316,7 +348,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 700,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -339,7 +371,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 700,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -362,7 +394,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 700,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -385,7 +417,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 700,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -408,7 +440,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 250,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -431,7 +463,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 250,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 }, // Standardized
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: {
@@ -455,7 +487,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 1500,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -468,7 +500,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 1500,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -481,7 +513,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 951,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -494,7 +526,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 951,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -507,7 +539,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 300,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -520,7 +552,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 300,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -533,7 +565,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 125,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -546,7 +578,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 125,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -559,7 +591,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 1600,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -572,7 +604,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 1600,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -585,7 +617,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 150,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -598,7 +630,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 150,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -611,7 +643,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 350,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -624,7 +656,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 350,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -637,7 +669,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 425,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -650,7 +682,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 425,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -663,7 +695,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 2700,
         strategy: 'SUPPORT_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         support_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },
@@ -676,7 +708,7 @@ const STRATEGY_TEMPLATES = [
         lot_size: 2700,
         strategy: 'RESISTANCE_RETEST',
         options: { expiry_type: 'MONTHLY', atm_strikes: 1 },
-        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10},
+        historical_data: { timeframe: 'FIFTEEN_MINUTE', days: 10 },
         support_resistance: { reactionLookback: 5, levelsToReturn: 8 },
         resistance_retest_params: { candle_interval: 'FIFTEEN_MINUTE' },
         atrSettings: { enabled: true, period: 8, slMultiplier: 2, trailingMultiplier: 0.5, riskRewardRatio: 5 },

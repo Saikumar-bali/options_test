@@ -11,6 +11,7 @@ class DataFetcher {
     }
 
     async getHistoricalData(params, useCache = true) {
+        // FIX: Cache key must include time range to prevent serving stale data for different times
         const cacheKey = this.createCacheKey(params);
 
         if (useCache && this.cache.has(cacheKey)) {
@@ -55,7 +56,9 @@ class DataFetcher {
     }
 
     createCacheKey(params) {
-        return `${params.exchange}_${params.symboltoken}_${params.interval}`;
+        // CRITICAL FIX: Include dates in the key!
+        // Old: return `${params.exchange}_${params.symboltoken}_${params.interval}`;
+        return `${params.exchange}_${params.symboltoken}_${params.interval}_${params.fromdate}_${params.todate}`;
     }
 
     async batchHistoricalData(requests) {

@@ -1,0 +1,8 @@
+--- Trade Report 2025-11-21 ---
+
+Summary:
+Total Closed Trades: 0
+Winning Trades: 0
+Losing Trades: 0
+Total Realized P&L: ₹0.00
+

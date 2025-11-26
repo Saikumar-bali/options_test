@@ -1,118 +1,97 @@
-// File: /trading-bot/indicators/SupportResistance.js
+const math = require('mathjs'); // Optional, standard JS works fine if this isn't installed
 
-const fs = require('fs');
-const path = require('path');
-
-/**
- * @description This module provides functionality to detect support and resistance levels from historical candle data.
- * The logic identifies significant pivot points, groups them into price zones, and counts the number of reactions at each zone.
- * It then filters for levels with multiple reactions to find the strongest S/R zones.
- */
 class SupportResistance {
     /**
-     * Detects support and resistance levels from a series of candles, prioritizing levels with multiple reactions.
-     *
-     * @param {Array<object>} candles - An array of candle objects. Each object must have { high, low }.
-     * @param {number} ltp - The last traded price, used as a reference to classify levels.
-     * @param {object} config - Configuration for level detection.
-     * @param {number} config.reactionLookback - The number of candles to look back and forward to confirm a pivot point.
-     * @param {number} config.levelsToReturn - The maximum number of support and resistance levels to return.
-     * @returns {{supports: Array<object>, resistances: Array<object>}} - An object containing arrays of detected support and resistance levels.
+     * Detects Support and Resistance levels using Pivot Points.
+     * CAPTURES SINGLE TOUCH LEVELS (Strength 1) to ensure no visual levels are missed.
+     * Fixes "Resistance-Turned-Support" by comparing Level vs LTP.
+     * * @param {Array} candles - Array of candle objects or arrays [time, open, high, low, close]
+     * @param {Number} ltp - Current Last Traded Price
+     * @param {Object} config - Configuration object { reactionLookback, levelsToReturn }
      */
     static detectLevels(candles, ltp, config) {
-        if (!candles || candles.length === 0 || !ltp || !config) {
-            console.error("[SupportResistance] Invalid input provided for level detection.");
-            return { supports: [], resistances: [] };
-        }
+        // 1. Normalize Candle Data
+        const normalizedCandles = candles.map(c => ({
+            high: Array.isArray(c) ? c[2] : c.high,
+            low: Array.isArray(c) ? c[3] : c.low,
+            close: Array.isArray(c) ? c[4] : c.close,
+        }));
 
-        const { reactionLookback, levelsToReturn } = config;
-        const pivots = [];
+        const lookback = config.reactionLookback || 5;
+        const maxLevels = config.levelsToReturn || 6;
+        const mergeThresholdPercent = 0.2; // Merge levels within 0.2%
 
-        // 1. Identify all significant pivot highs and lows (UPDATED LOGIC)
-        for (let i = reactionLookback; i < candles.length - reactionLookback; i++) {
-            const currentHigh = candles[i].high;
-            const currentLow = candles[i].low;
+        let pivots = [];
 
-            let isPivotHigh = true;
-            let isPivotLow = true;
-
-            // Look left and right of the current candle (UPDATED: removed break statements)
-            for (let j = 1; j <= reactionLookback; j++) {
-                // Check for pivot high (must be the highest in the lookback window)
-                if (candles[i - j].high > currentHigh || candles[i + j].high > currentHigh) {
-                    isPivotHigh = false;
-                }
-                // Check for pivot low (must be the lowest in the lookback window)
-                if (candles[i - j].low < currentLow || candles[i + j].low < currentLow) {
-                    isPivotLow = false;
+        // 2. Identify Pivot Highs and Pivot Lows
+        for (let i = lookback; i < normalizedCandles.length - lookback; i++) {
+            const current = normalizedCandles[i];
+            
+            // Check for Pivot High (Resistance candidate)
+            let isHigh = true;
+            for (let j = 1; j <= lookback; j++) {
+                if (normalizedCandles[i - j].high > current.high || normalizedCandles[i + j].high > current.high) {
+                    isHigh = false;
+                    break;
                 }
             }
 
-            if (isPivotHigh) {
-                pivots.push(currentHigh);
-            }
-            if (isPivotLow) {
-                pivots.push(currentLow);
-            }
-        }
-
-        if (pivots.length === 0) return { supports: [], resistances: [] };
-        
-        // 2. Group close pivots into zones and count reactions
-        pivots.sort((a, b) => a - b);
-        const levelZones = [];
-        if (pivots.length > 0) {
-            let currentZone = { levels: [pivots[0]], reactions: 1 };
-            for (let i = 1; i < pivots.length; i++) {
-                const avgLevelInZone = currentZone.levels.reduce((a, b) => a + b, 0) / currentZone.levels.length;
-                // Group levels if they are within 0.75% of the current zone's average
-                if ((pivots[i] - avgLevelInZone) / avgLevelInZone < 0.0075) {
-                    currentZone.levels.push(pivots[i]);
-                    currentZone.reactions++;
-                } else {
-                    levelZones.push(currentZone);
-                    currentZone = { levels: [pivots[i]], reactions: 1 };
+            // Check for Pivot Low (Support candidate)
+            let isLow = true;
+            for (let j = 1; j <= lookback; j++) {
+                if (normalizedCandles[i - j].low < current.low || normalizedCandles[i + j].low < current.low) {
+                    isLow = false;
+                    break;
                 }
             }
-            levelZones.push(currentZone);
+
+            // Capture ALL pivots, even if they are single spikes
+            if (isHigh) pivots.push({ price: current.high, strength: 1, origin: 'High' });
+            if (isLow) pivots.push({ price: current.low, strength: 1, origin: 'Low' });
         }
 
-        // 3. Filter for zones with 2 or more reactions and calculate the average level for each strong zone
-        const strongLevels = levelZones
-            .filter(zone => zone.reactions >= 2)
-            .map(zone => ({
-                level: zone.levels.reduce((a, b) => a + b, 0) / zone.levels.length,
-                reactions: zone.reactions,
-            }));
+        // 3. Merge Nearby Levels
+        let mergedLevels = [];
+        pivots.sort((a, b) => a.price - b.price);
 
-        // 4. Classify strong levels into support and resistance based on the current LTP
-        const supports = [];
-        const resistances = [];
+        for (let i = 0; i < pivots.length; i++) {
+            if (mergedLevels.length === 0) {
+                mergedLevels.push(pivots[i]);
+                continue;
+            }
 
-        strongLevels.forEach(lvl => {
-            if (lvl.level > ltp) {
-                resistances.push({
-                    ...lvl,
-                    type: 'resistance',
-                    distance: Math.abs(lvl.level - ltp)
-                });
+            const last = mergedLevels[mergedLevels.length - 1];
+            const current = pivots[i];
+            const diffPercent = ((current.price - last.price) / last.price) * 100;
+
+            if (diffPercent <= mergeThresholdPercent) {
+                // Merge and increase strength
+                last.price = (last.price * last.strength + current.price) / (last.strength + 1);
+                last.strength += 1; 
             } else {
-                supports.push({
-                    ...lvl,
-                    type: 'support',
-                    distance: Math.abs(lvl.level - ltp)
-                });
+                mergedLevels.push(current);
+            }
+        }
+
+        // 4. Classify based on LTP (The Fix)
+        let supports = [];
+        let resistances = [];
+
+        mergedLevels.forEach(level => {
+            if (level.price < ltp) {
+                supports.push({ level: level.price, strength: level.strength });
+            } else {
+                resistances.push({ level: level.price, strength: level.strength });
             }
         });
 
-        // 5. Sort levels by their distance to the LTP (closest first)
-        supports.sort((a, b) => a.distance - b.distance);
-        resistances.sort((a, b) => a.distance - b.distance);
+        // 5. Sort by proximity to LTP
+        supports.sort((a, b) => b.level - a.level);      // Descending (Closest below)
+        resistances.sort((a, b) => a.level - b.level);   // Ascending (Closest above)
 
-        // 6. Return the requested number of levels
         return {
-            supports: supports.slice(0, levelsToReturn),
-            resistances: resistances.slice(0, levelsToReturn),
+            supports: supports.slice(0, maxLevels),
+            resistances: resistances.slice(0, maxLevels)
         };
     }
 }

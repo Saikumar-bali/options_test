@@ -11,6 +11,7 @@ const { STRATEGY_CONFIG } = require('../trading-bot/config/trade_config.js');
 const S_R_BB_Strategy = require('../trading-bot/strategies/S_R_BB_Strategy.js');
 const SupportRetestStrategy = require('../trading-bot/strategies/SupportRetestStrategy.js');
 const ResistanceRetestStrategy = require('../trading-bot/strategies/ResistanceRetestStrategy.js');
+const SupportTrendlineStrategy = require('../trading-bot/strategies/SupportTrendlineStrategy.js'); // <--- ADDED THIS
 const PositionManager = require('../trading-bot/strategies/PositionManager.js');
 
 // --- UTILITY IMPORTS ---
@@ -159,6 +160,9 @@ async function main() {
                     case 'S_R_BB':
                         strategy = new S_R_BB_Strategy(...strategyArgs.slice(0, -2));
                         break;
+                    case 'SUPPORT_TRENDLINE': // <--- ADDED THIS CASE
+                        strategy = new SupportTrendlineStrategy(...strategyArgs);
+                        break;
                     default:
                         console.error(`[${config.underlying}] Unknown strategy type '${config.strategy}'.`);
                         continue;
@@ -194,6 +198,8 @@ async function main() {
                     return s.updateLevels();
                 } else if (typeof s.updateLevelsAndOptions === 'function') {
                     return s.updateLevelsAndOptions();
+                } else if (typeof s.updateTrendlineAndIndicators === 'function') { // <--- Handle Trendline Strategy
+                    return s.updateTrendlineAndIndicators();
                 }
                 return Promise.resolve();
             });
@@ -205,14 +211,24 @@ async function main() {
             
             initializedStrategies.forEach(strategy => {
                 const underlyingSymbol = strategy.config.underlying.toUpperCase();
-                const levels = strategy.getLevelsAndLTP();
                 
-                const supports = levels.supports.length > 0 ? levels.supports.map(l => l.toFixed(2)).join(', ') : 'N/A';
-                const resistances = levels.resistances.length > 0 ? levels.resistances.map(r => r.toFixed(2)).join(', ') : 'N/A';
-                
-                levelsMessage += `*${underlyingSymbol}* (LTP: ${levels.ltp.toFixed(2)})\n`;
-                levelsMessage += `  - *Supports:* ${supports}\n`;
-                levelsMessage += `  - *Resistances:* ${resistances}\n\n`;
+                // Check for Trendline Strategy specific output
+                if (strategy instanceof SupportTrendlineStrategy) {
+                    const tInfo = strategy.getTrendlineAndLTP();
+                    levelsMessage += `*${underlyingSymbol}* (LTP: ${tInfo.ltp.toFixed(2)})\n`;
+                    if (tInfo.trendline && tInfo.trendline.isManual) {
+                         levelsMessage += `  - *Manual Trendline (Ray):* Active\n  - *Projected Support:* ${tInfo.trendline.projectedPrice}\n\n`;
+                    } else {
+                         levelsMessage += `  - *Trendline:* Auto-detection active\n\n`;
+                    }
+                } else if (typeof strategy.getLevelsAndLTP === 'function') {
+                    const levels = strategy.getLevelsAndLTP();
+                    const supports = levels.supports.length > 0 ? levels.supports.map(l => l.toFixed(2)).join(', ') : 'N/A';
+                    const resistances = levels.resistances.length > 0 ? levels.resistances.map(r => r.toFixed(2)).join(', ') : 'N/A';
+                    levelsMessage += `*${underlyingSymbol}* (LTP: ${levels.ltp.toFixed(2)})\n`;
+                    levelsMessage += `  - *Supports:* ${supports}\n`;
+                    levelsMessage += `  - *Resistances:* ${resistances}\n\n`;
+                }
             });
 
             // Save the levels to a .txt file and get the path
@@ -233,15 +249,6 @@ async function main() {
         console.log(`\n✅ S/R level calculation will now only run once at startup.`);
 
         console.log("\n⏰ Scheduling end-of-day tasks...");
-        
-        // --- CARRY FORWARD POSITIONS ---
-        // The automatic 3:15 PM square-off job has been disabled as requested.
-        // schedule.scheduleJob({ hour: 15, minute: 15, dayOfWeek: [1, 2, 3, 4, 5], tz: 'Asia/Kolkata' }, () => {
-        //     console.log("🕒 Time is 3:15 PM. Closing all open trades.");
-        //     if (positionManager) {
-        //         positionManager.closeAllPositions('Market closing square-off');
-        //     }
-        // });
         console.log("  -> Positions will be carried forward. Auto square-off is DISABLED.");
 
         schedule.scheduleJob({ hour: 15, minute: 31, dayOfWeek: [1, 2, 3, 4, 5], tz: 'Asia/Kolkata' }, async () => {

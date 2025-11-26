@@ -8,7 +8,7 @@ const config = {
     apiKey: 'SUdk3YDY',
     clientCode: 'B54512822',
     password: '8179',
-    totp: '608620', // IMPORTANT: Generate a new TOTP before running
+    totp: '534919', // IMPORTANT: Generate a new TOTP before running
 };
 
 // --- Instrument & Data Configuration ---
@@ -29,11 +29,11 @@ const instrumentsToFetch = [
     //     symbolToken: '865353',
     //     exchange: 'BFO',
     // },
-    {
-        symbol: 'BANKNIFTY',
-        symbolToken: '99926009',
-        exchange: 'NSE',
-    },
+    // {
+    //     symbol: 'BANKNIFTY',
+    //     symbolToken: '99926009',
+    //     exchange: 'NSE',
+    // },
     // {
     //     symbol: 'RELIANCE31JUL251410CE',
     //     symbolToken: '132186',
@@ -59,14 +59,19 @@ const instrumentsToFetch = [
     //     symbolToken: '90534',
     //     exchange: 'NFO',
     // },
+      {
+        symbol: 'RELIANCE25NOV251540CE',
+        symbolToken: '115554',
+        exchange: 'NFO',
+    },
     //   {
-    //     symbol: 'NIFTY02SEP2524950PE',
-    //     symbolToken: '48952',
-    //     exchange: 'NFO',
+    //     symbol: 'CRUDEOIL16DEC255200PE',
+    //     symbolToken: '472851',
+    //     exchange: 'MCX',
     // },
 ];
 const toDate = moment();
-const fromDate = moment().subtract(40, 'days');
+const fromDate = moment().subtract(1, 'days');
 
 const historicalDataParams = {
     interval: 'FIFTEEN_MINUTE', // Options: ONE_MINUTE, THREE_MINUTE, FIVE_MINUTE, FIFTEEN_MINUTE, THIRTY_MINUTE, ONE_HOUR, TWO_HOUR, FOUR_HOUR, DAILY, WEEKLY, MONTHLY

@@ -1,0 +1,185 @@
+Initial Support & Resistance Levels for ATM Options
+===================================================
+
+NIFTY
+  NIFTY02DEC2526000CE (LTP: 167.60)
+    - Supports: 150.05
+    - Resistances: 188.35, 220.90, 260.65, 271.60, 277.45
+
+  NIFTY02DEC2526000PE (LTP: 106.65)
+    - Supports: 98.40, 89.00, 87.00
+    - Resistances: 140.25, 142.30, 170.80, 173.20, 180.60
+
+SENSEX
+  SENSEX25D0484900CE (LTP: 675.65)
+    - Supports: 647.60
+    - Resistances: 714.90, 755.45, 790.00, 994.55, 1040.00, 1056.00, 1060.05, 1434.25
+
+  SENSEX25D0484900PE (LTP: 408.50)
+    - Supports: 359.00, 342.30, 325.65, 256.40
+    - Resistances: 418.35, 425.95, 470.60, 483.10, 558.75, 571.80, 612.30, 618.70
+
+BANKNIFTY
+  BANKNIFTY30DEC2559200CE (LTP: 993.80)
+    - Supports: 939.75, 929.95, 925.00, 923.05, 894.40, 884.50, 854.65, 828.60
+    - Resistances: 999.10, 1001.35, 1005.85, 1024.97, 1029.50, 1058.05, 1091.00, 1131.50
+
+  BANKNIFTY30DEC2559200PE (LTP: 610.70)
+    - Supports: 586.00
+    - Resistances: 628.85, 645.90, 689.60, 699.05, 717.00, 751.35, 770.80, 784.95
+
+MIDCPNIFTY
+  MIDCPNIFTY30DEC2513925CE (LTP: 299.75)
+    - Supports: N/A
+    - Resistances: 296.15, 342.00, 378.00
+
+  MIDCPNIFTY30DEC2513925PE (LTP: 193.20)
+    - Supports: N/A
+    - Resistances: 243.15, 268.50
+
+TCS
+  TCS30DEC253140CE (LTP: 73.00)
+    - Supports: 69.00, 68.60, 66.35, 62.70, 62.50
+    - Resistances: 75.75, 76.85, 77.60, 84.45, 86.00, 86.80, 87.70, 88.30
+
+  TCS30DEC253140PE (LTP: 59.20)
+    - Supports: 54.20, 53.95, 50.00, 47.65, 46.30
+    - Resistances: 59.55, 61.50, 62.00, 64.75, 65.35, 65.60, 67.50, 68.25
+
+INFY
+  INFY30DEC251540CE (LTP: 42.10)
+    - Supports: 40.32, 35.80, 30.65, 29.20, 28.25, 27.40, 26.35, 26.00
+    - Resistances: 42.65, 43.10, 44.00, 44.70, 45.00, 46.30, 49.85, 50.80
+
+  INFY30DEC251540PE (LTP: 35.65)
+    - Supports: 33.90, 29.90, 24.70
+    - Resistances: 36.60, 40.95, 41.95, 42.45, 42.70, 42.80, 43.00, 43.70
+
+HDFCBANK
+  HDFCBANK30DEC25995CE (LTP: 21.35)
+    - Supports: 20.85, 19.95, 19.50
+    - Resistances: 22.25, 23.85, 24.50, 25.00, 25.85, 26.00, 26.15, 27.10
+
+  HDFCBANK30DEC25995PE (LTP: 15.40)
+    - Supports: 15.45, 15.40, 14.80, 13.25, 11.90, 11.40, 11.05, 10.05
+    - Resistances: 15.85, 16.15, 16.55, 16.95, 17.00, 17.45, 17.55, 19.40
+
+ICICIBANK
+  ICICIBANK30DEC251360CE (LTP: 30.55)
+    - Supports: 30.50, 29.45
+    - Resistances: 32.90, 35.30, 36.40, 37.70, 38.05, 39.91, 40.00, 42.95
+
+  ICICIBANK30DEC251360PE (LTP: 16.80)
+    - Supports: 16.55, 16.10, 16.00, 15.60, 15.20, 14.80, 14.60, 13.90
+    - Resistances: 16.75, 18.25, 18.40, 18.60, 19.00, 19.50, 19.60, 19.70
+
+AXISBANK
+  AXISBANK30DEC251280CE (LTP: 30.50)
+    - Supports: 29.50, 27.60, 26.70, 26.10, 25.00, 24.75, 24.00, 23.95
+    - Resistances: 30.35, 32.08, 32.45, 33.40, 34.30, 34.45, 35.00, 36.50
+
+  AXISBANK30DEC251280PE (LTP: 21.15)
+    - Supports: 21.00
+    - Resistances: 23.80, 23.90, 24.00, 24.55, 24.80, 24.90, 26.00, 26.50
+
+RELIANCE
+  RELIANCE30DEC251550CE (LTP: 35.05)
+    - Supports: 34.48, 34.05, 32.50, 32.00, 29.50, 29.05, 26.50, 25.40
+    - Resistances: 36.00, 37.60, 40.00, 40.45, 41.15, 43.80, 44.00
+
+  RELIANCE30DEC251550PE (LTP: 27.15)
+    - Supports: 26.40, 24.35
+    - Resistances: 27.02, 27.20, 28.80, 29.90, 30.00, 30.20, 31.05, 31.50
+
+SBIN
+  SBIN30DEC25990CE (LTP: 20.70)
+    - Supports: 19.70, 19.50, 19.20, 18.50, 18.45, 18.25, 17.80, 17.50
+    - Resistances: 21.50, 22.20, 22.50
+
+  SBIN30DEC25990PE (LTP: 17.20)
+    - Supports: N/A
+    - Resistances: 21.00, 21.65, 21.70, 22.85, 23.05, 23.10, 23.15, 24.85
+
+BHARTIARTL
+  BHARTIARTL30DEC252120CE (LTP: 45.95)
+    - Supports: N/A
+    - Resistances: 51.70, 60.05, 73.30, 73.50, 75.00, 78.95, 79.65, 82.50
+
+  BHARTIARTL30DEC252120PE (LTP: 37.00)
+    - Supports: 33.20, 33.00, 31.90, 30.85, 30.50, 30.35, 29.00, 28.40
+    - Resistances: 38.40, 43.00, 48.45
+
+HINDUNILVR
+  HINDUNILVR30DEC252420CE (LTP: 29.50)
+    - Supports: 26.00
+    - Resistances: 33.80, 37.70, 40.60, 42.05, 42.40, 43.40, 43.65, 46.25
+
+  HINDUNILVR30DEC252420PE (LTP: 24.80)
+    - Supports: 23.85, 23.60, 22.20, 21.95, 21.25, 21.00, 19.10, 17.35
+    - Resistances: 24.95, 25.15, 26.05, 27.60, 29.30, 31.05, 31.90, 40.00
+
+BAJFINANCE
+  BAJFINANCE30DEC25990CE (LTP: 31.35)
+    - Supports: 28.55
+    - Resistances: 31.75, 42.20, 58.75
+
+  BAJFINANCE30DEC25990PE (LTP: 19.15)
+    - Supports: 19.40, 18.65, 18.40, 17.90, 17.80, 17.60, 17.50, 15.85
+    - Resistances: 22.25
+
+ITC
+  ITC30DEC25402.5CE (LTP: 7.85)
+    - Supports: N/A
+    - Resistances: 7.90, 8.00, 8.70, 8.80, 9.15, 9.60, 9.70, 10.30
+
+  ITC30DEC25402.5PE (LTP: 4.70)
+    - Supports: N/A
+    - Resistances: N/A
+
+LT
+  LT30DEC254020CE (LTP: 93.35)
+    - Supports: 92.85, 88.55, 87.75, 84.90
+    - Resistances: 94.35, 97.00, 98.20, 101.63, 102.00, 102.25, 102.80, 105.00
+
+  LT30DEC254020PE (LTP: 63.50)
+    - Supports: 60.25, 60.00, 56.10
+    - Resistances: 64.20, 66.30, 67.00, 67.90, 70.90, 71.15, 73.35, 73.55
+
+M&M
+  M&M30DEC253700CE (LTP: 100.70)
+    - Supports: 99.80, 97.95
+    - Resistances: 113.05, 119.00, 126.10, 126.85, 127.90, 135.40, 138.65, 140.05
+
+  M&M30DEC253700PE (LTP: 96.80)
+    - Supports: 95.00, 91.25, 90.90, 89.55, 87.70, 84.28, 83.70, 82.75
+    - Resistances: 98.20, 99.00, 102.15, 104.00, 105.00, 116.00, 119.95
+
+SUNPHARMA
+  SUNPHARMA30DEC251780CE (LTP: 41.80)
+    - Supports: 40.85, 37.05, 36.80, 34.90
+    - Resistances: 43.60, 43.85, 44.90, 45.60, 46.40, 47.00, 47.15, 48.80
+
+  SUNPHARMA30DEC251780PE (LTP: 29.15)
+    - Supports: 28.85, 27.95
+    - Resistances: 32.30, 33.15, 33.40, 33.90, 34.30, 35.35, 36.35, 36.65
+
+ONGC
+  ONGC30DEC25245CE (LTP: 6.10)
+    - Supports: 6.10
+    - Resistances: 6.50, 6.95, 7.25, 7.80
+
+  ONGC30DEC25245PE (LTP: 4.00)
+    - Supports: 3.75, 3.65, 3.45, 3.40, 3.30, 3.20
+    - Resistances: 4.00, 4.25, 4.30, 4.55, 4.65, 4.80
+
+CRUDEOIL
+  CRUDEOIL16DEC255200CE (LTP: 178.80)
+    - Supports: 177.10, 176.60, 171.50, 169.70, 166.10, 164.00, 157.40, 145.60
+    - Resistances: 182.00, 183.00, 190.00, 191.05, 193.10, 195.00, 197.40, 198.20
+
+  CRUDEOIL16DEC255200PE (LTP: 174.50)
+    - Supports: 173.00, 171.60, 168.80, 164.00, 160.50, 159.50, 158.90, 158.30
+    - Resistances: 176.00, 180.30, 181.60, 184.10, 185.00, 186.00, 186.70, 187.60
+
+NATURALGAS: No ATM options found or levels calculated.
+
